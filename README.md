@@ -1,4 +1,4 @@
-# Concealed Object Detection
+# Concealed Object Detection (SINet-V2)
 
 > **Authors:** 
 > [Deng-Ping Fan](https://dpfan.net/), 
@@ -8,11 +8,12 @@
 
 ## 1. Preface
 
-- **Introduction.** This repository contains the source code, prediction results, and evaluation toolbox of our method, which is the 
-journal extension version of our paper SINet (github) published at CVPR-2020.
+- **Introduction.** This repository contains the source code, prediction results, and evaluation toolbox of our Search and Identification Network (SINet-V2)
+, which are the journal extension version of our paper SINet ([github](https://github.com/DengPingFan/SINet)/
+[pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf)) published at CVPR-2020.
 
 - **Highlights.** Compared to our conference version, we achieve new SOTA in the field of COD via the two 
-well-elaborated sub-modules, including neighbor connection decoder(NCD) and group-reversal attention (GRA). 
+well-elaborated sub-modules, including neighbor connection decoder (NCD) and group-reversal attention (GRA). 
 Please refer to our paper for more details.
 
 > If you have any questions about our paper, feel free to contact me via e-mail (gepengai.ji@gmail.com). 
@@ -21,6 +22,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
+- [2021/02/21] Upload the whole project.
 - [2021/01/16] Create repository.
 
 
@@ -66,8 +68,8 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 1. Prerequisites:
    
-    Note that SINet is only tested on Ubuntu OS with the following environments. 
-    It may work on other operating systems as well but we do not guarantee that it will.
+    Note that SINet-V2 is only tested on Ubuntu OS with the following environments. 
+    It may work on other operating systems (i.e., Windows) as well but we do not guarantee that it will.
     
     + Creating a virtual environment in terminal: `conda create -n SINet python=3.6`.
     
@@ -75,22 +77,22 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 1. Prepare the data:
 
-    + downloading testing dataset and move it into `./data/TestDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1o8OfBvYE6K-EpDyvzsmMPndnUMwb540R/view?usp=sharing).
+    + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
+    which can be found in this [download link (Google Drive)]().
     
-    + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1lODorfB33jbd-im-qrtUgWnZXxB94F55/view?usp=sharing).
+    + downloading training/validation dataset and move it into `./Dataset/TrainValDataset/`, 
+    which can be found in this [download link (Google Drive)]().
     
-    + downloading pretrained weights and move it into `snapshots/PraNet_Res2Net/PraNet-19.pth`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1pUE99SUQHTLxS9rabLGe_XTDwfS6wXEw/view?usp=sharing).
+    + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
+    which can be found in this [download link (Google Drive)]().
     
-    + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
+    + downloading Res2Net weights on ImageNet dataset [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
 1. Training Configuration:
 
     + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain_Val.py`.
     
-    + Just enjoy it!
+    + Just enjoy it via run `python MyTrain_Val.py` in your terminal.
 
 1. Testing Configuration:
 
@@ -106,7 +108,7 @@ please follow this the instructions in `./eval/main.m` and just run it to genera
 The complete evaluation toolbox (including data, map, eval code, and res): [link](https://drive.google.com/file/d/1qga1UJlIQdHNlt_F9TdN4lmmOH4gN7l2/view?usp=sharing). 
 
 ### 3.3 Pre-computed maps: 
-They can be found in [download link](https://drive.google.com/file/d/1tW0OOxPSuhfSbMijaMPwRDPElW1qQywz/view?usp=sharing).
+They can be found in [download link]().
 
 
 ## 4. Citation

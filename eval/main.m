@@ -15,22 +15,15 @@ clc;
 
 % ---- 1. Camouflage Map Path Setting ----
 CamMapPath = '../ablation_script/res/';   % Put model results in this folder.
-% 'Network_Res2Net_GRA_NCD_32_8_2', ''
-% Models = {'20210103-Network_Res2Net_GRA_NCD_AllReverse', '20210103-Network_Res2Net_GRA_NCD_PartialDecoder', ...
-%     '20210103-Network_Res2Net_GRA_NCD_sym_conv', '20210103-Network_Res2Net_GRA_NCD_withoutTEM',...
-%     '20210104-Network_Res2Net_GRA_NCD_1_8_32', '20210104-Network_Res2Net_GRA_NCD_32_32_32',...
-%     '20210104-Network_Res2Net_GRA_NCD_NoReverse', '20210104-Network_Res2Net_GRA_NCD_Reverse_1_1_0'};   % You can add other model like this format: Models = {'2019-ICCV-EGNet','2019-CVPR-CPD'};
-% Models = {'20210105-Network_Res2Net_GRA_NoNCD', '20210105-Network_Res2Net_GRA_NCD_GSize_1_1_1', ...
-%     '20210105-Network_Res2Net_GRA_NCD_GSize_32_16_1', '20210105-Network_Res2Net_GRA_NCD_GSize_8_8_8'};
-Models = {'20210104-Network_Res2Net_GRA_NCD_1_8_32'};
+Models = {'SINet-V2'};
 modelNum = length(Models);
 
 % ---- 2. Ground-truth Datasets Setting ----
-DataPath = '/media/nercms/NERCMS/GepengJi/2020ACMMM/Dataset/COD_New_data/TestDataset/';
-Datasets = {'CAMO', 'CHAMELEON','COD10K'};  % You may also need other datasets, such as Datasets = {'CAMO','CPD1K'};
+DataPath = './Dataset/COD_New_data/TestDataset/';
+Datasets = {'CAMO', 'CHAMELEON','COD10K'};
 % Datasets = {'COD10K-Amphibian', 'COD10K-Aquatic', 'COD10K-Flying', 'COD10K-Terrestrial'};
 % ---- 3. Results Save Path Setting ----
-ResDir = './EvaluationResults_ablation_script_new_4/';
+ResDir = './EvaluationResults/';
 ResName='_result.txt';  % You can change the result name.
 
 Thresholds = 1:-1/255:0;
