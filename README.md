@@ -1,5 +1,7 @@
 # Concealed Object Detection (SINet-V2)
 
+PyTorch implementation of our Search and Identification Network (SINet-V2).
+
 > **Authors:** 
 > [Deng-Ping Fan](https://dpfan.net/), 
 > [Ge-Peng Ji](https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=en), 
