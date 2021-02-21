@@ -115,11 +115,11 @@ They can be found in [download link]().
 
 Please cite our paper if you find the work useful: 
 
-    @article{fan2020pra,
-    title={PraNet: Parallel Reverse Attention Network for Polyp Segmentation},
-    author={Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling},
-    journal={MICCAI},
-    year={2020}
+    @article{fan2021cancealed,
+    title={Concealed Object Detection},
+    author={Fan, Deng-Ping and Ji, Ge-Peng and Ming-Ming, Cheng and Shao, Ling},
+    journal={arXiv},
+    year={2021}
     }
 
 ## 6. FAQ
