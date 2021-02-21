@@ -1,4 +1,4 @@
-# Concealed Object Detection (TPAMI-2021)
+# Concealed Object Detection
 
 > **Authors:** 
 > [Deng-Ping Fan](https://dpfan.net/), 
