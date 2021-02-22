@@ -31,7 +31,7 @@ Please refer to our paper for more details.
 ## 3. Overview
 
 <p align="center">
-    <img src="imgs/TaskRelationship.png"/> <br />
+    <img src="./imgs/TaskRelationship.png"/> <br />
     <em> 
     Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
     Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
@@ -41,7 +41,7 @@ Please refer to our paper for more details.
 </p>
 
 <p align="center">
-    <img src="imgs/CamouflagedTask.png"/> <br />
+    <img src="./imgs/CamouflagedTask.png"/> <br />
     <em> 
     Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
     (which detects generic objects including stuff and things), (c) salient instance/object detection 
