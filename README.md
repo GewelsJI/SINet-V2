@@ -119,7 +119,7 @@ Please cite our paper if you find the work useful:
 
     @article{fan2021cancealed,
     title={Concealed Object Detection},
-    author={Fan, Deng-Ping and Ji, Ge-Peng and Ming-Ming, Cheng and Shao, Ling},
+    author={Fan, Deng-Ping and Ji, Ge-Peng and Shao, Ling and Ming-Ming, Cheng},
     journal={arXiv},
     year={2021}
     }
