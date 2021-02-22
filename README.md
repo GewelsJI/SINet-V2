@@ -86,7 +86,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     which can be found in this [download link (Google Drive)]().
     
     + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
-    which can be found in this [download link (Google Drive)]().
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1XrUOmgB86L84JefoNq0gq2scBZjGaTkm/view?usp=sharing).
     
     + downloading Res2Net weights on ImageNet dataset [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
@@ -110,7 +110,7 @@ please follow this the instructions in `./eval/main.m` and just run it to genera
 The complete evaluation toolbox (including data, map, eval code, and res): [link](https://drive.google.com/file/d/1qga1UJlIQdHNlt_F9TdN4lmmOH4gN7l2/view?usp=sharing). 
 
 ### 3.3 Pre-computed maps: 
-They can be found in [download link]().
+They can be found in [download link](https://drive.google.com/file/d/1wSCvCXaaRLUDl38HOCAMdsVb-8gASJb1/view?usp=sharing).
 
 
 ## 4. Citation
