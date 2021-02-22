@@ -80,10 +80,10 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 1. Prepare the data:
 
     + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
-    which can be found in this [download link (Google Drive)]().
+    which can be found in this [download link (Coming soon ...)].
     
     + downloading training/validation dataset and move it into `./Dataset/TrainValDataset/`, 
-    which can be found in this [download link (Google Drive)]().
+    which can be found in this [download link (Coming soon ...)].
     
     + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1XrUOmgB86L84JefoNq0gq2scBZjGaTkm/view?usp=sharing).
