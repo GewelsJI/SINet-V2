@@ -24,7 +24,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
-- [2021/04/20] The release of inference map ([Google Drive](https://drive.google.com/file/d/1ux2-eDSaAu0EcEV-s04s5u-H27W5siFx/view?usp=sharing)) on the [NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) test dataset.
+- [2021/04/20] The release of inference map on the [2021-CVPR-NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) test dataset, which can be downloaded from the [Google Drive](https://drive.google.com/file/d/1ux2-eDSaAu0EcEV-s04s5u-H27W5siFx/view?usp=sharing).
 - [2021/02/21] Upload the whole project.
 - [2021/01/16] Create repository.
 
