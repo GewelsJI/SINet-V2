@@ -149,9 +149,9 @@ if __name__ == '__main__':
     parser.add_argument('--decay_epoch', type=int, default=50, help='every n epochs decay learning rate')
     parser.add_argument('--load', type=str, default=None, help='train from checkpoints')
     parser.add_argument('--gpu_id', type=str, default='0', help='train use gpu')
-    parser.add_argument('--train_root', type=str, default='./Dataset/TrainDataset/',
+    parser.add_argument('--train_root', type=str, default='./Dataset/TrainValDataset/',
                         help='the training rgb images root')
-    parser.add_argument('--val_root', type=str, default='./Dataset/ValDataset/CAMO/',
+    parser.add_argument('--val_root', type=str, default='./Dataset/TestDataset/CAMO/',
                         help='the test rgb images root')
     parser.add_argument('--save_path', type=str,
                         default='./snapshot/SINet_V2/',
