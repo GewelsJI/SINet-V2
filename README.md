@@ -24,6 +24,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
+- [2021/05/01] Updating the download link of training/testing dataset in our experiments.
 - [2021/04/20] The release of inference map on the [2021-CVPR-NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) test dataset, which can be downloaded from the [Google Drive](https://drive.google.com/file/d/1ux2-eDSaAu0EcEV-s04s5u-H27W5siFx/view?usp=sharing).
 - [2021/02/21] Upload the whole project.
 - [2021/01/16] Create repository.
@@ -84,7 +85,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     which can be found in [Baidu Driver](https://pan.baidu.com/s/16QnoxIK3UB_QwnGZMCZ3uQ) (Password: hvov).
 
     + downloading training/validation dataset and move it into `./Dataset/TrainValDataset/`, 
-    which can be found in [Baidu Driver](https://pan.baidu.com/s/1dkkmZE1l1QO15t8eXwvTRA) (Password: h8oi).
+    which can be found in [Baidu Driver](https://pan.baidu.com/s/1yKaGYr4oztR0lGan1nJ4kQ) (Password: hdj7).
     
     + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1XrUOmgB86L84JefoNq0gq2scBZjGaTkm/view?usp=sharing).
