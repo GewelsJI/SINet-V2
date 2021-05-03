@@ -1,4 +1,4 @@
-# Concealed Object Detection (SINet-V2)
+# Concealed Object Detection (SINet-V2, TPAMI-Minor)
 
 PyTorch implementation of our Search and Identification Network (SINet-V2).
 
@@ -10,7 +10,7 @@ PyTorch implementation of our Search and Identification Network (SINet-V2).
 
 ## 1. Preface
 
-- **Introduction.** This repository contains the source code, prediction results, and evaluation toolbox of our Search and Identification Network (SINet-V2)
+- **Introduction.** This repository contains the source code, prediction results, and evaluation toolbox of our Search and Identification Network (SINet-V2, [arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf), [SuppMaterial](http://dpfan.net/wp-content/uploads/ConcealedOD_supp.pdf))
 , which are the journal extension version of our paper SINet ([github](https://github.com/DengPingFan/SINet)/
 [pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf)) published at CVPR-2020.
 
