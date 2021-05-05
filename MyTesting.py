@@ -25,7 +25,7 @@ for _data_name in ['CAMO', 'COD10K', 'CHAMELEON']:
     test_loader = test_dataset(image_root, gt_root, opt.testsize)
 
     for i in range(test_loader.size):
-        image, gt, name = test_loader.load_data()
+        image, gt, name, _ = test_loader.load_data()
         gt = np.asarray(gt, np.float32)
         gt /= (gt.max() + 1e-8)
         image = image.cuda()
@@ -35,5 +35,5 @@ for _data_name in ['CAMO', 'COD10K', 'CHAMELEON']:
         res = F.upsample(res, size=gt.shape, mode='bilinear', align_corners=False)
         res = res.sigmoid().data.cpu().numpy().squeeze()
         res = (res - res.min()) / (res.max() - res.min() + 1e-8)
-        print('> ')
+        print('> {} - {}'.format(_data_name, name))
         misc.imsave(save_path+name, res)
