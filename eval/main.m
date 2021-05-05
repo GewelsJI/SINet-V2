@@ -14,12 +14,12 @@ close all;
 clc;
 
 % ---- 1. Camouflage Map Path Setting ----
-CamMapPath = '../ablation_script/res/';   % Put model results in this folder.
+CamMapPath = '../res/';   % Put model results in this folder.
 Models = {'SINet-V2'};
 modelNum = length(Models);
 
 % ---- 2. Ground-truth Datasets Setting ----
-DataPath = './Dataset/COD_New_data/TestDataset/';
+DataPath = './Dataset/TestDataset/';
 Datasets = {'CAMO', 'CHAMELEON','COD10K'};
 % Datasets = {'COD10K-Amphibian', 'COD10K-Aquatic', 'COD10K-Flying', 'COD10K-Terrestrial'};
 % ---- 3. Results Save Path Setting ----
