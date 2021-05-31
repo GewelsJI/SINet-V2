@@ -132,6 +132,11 @@ Please cite our paper if you find the work useful:
 1. If the image cannot be loaded in the page (mostly in the domestic network situations).
 
     [Solution Link](https://blog.csdn.net/weixin_42128813/article/details/102915578)
+    
+    
+## 7. License
+
+The source code is free for research and education use only. Any comercial use should get formal permission first.
 
 ---
 
