@@ -24,7 +24,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
-- [2021/06/05] The Jittor version of [SINet-V2](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now, please enjoy it. 
+- [2021/06/05] The [Jittor version of SINet-V2](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now, please enjoy it. 
   Many thanks to Yu-Cheng Chou for the excellent conversion from pytorch framework)
 - [2021/06/01] Our TPAMI-2021 paper is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
 - [2021/05/16] [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) code will come soon ...
