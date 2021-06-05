@@ -37,3 +37,27 @@ can be used to the inference of Jittor model.
 |----------------------	|-------------	|-----------	|--------------	|-------	|
 |  PyTorch             	| 0.815       	| 0.887     	| 0.680        	| 0.037 	|
 |  Jittor              	|             	|           	|              	|       	|
+
+## Citation
+
+## Citation
+
+If you find our work useful in your research, please consider citing:
+    
+    
+    @article{fan2021concealed,
+    title={Concealed Object Detection},
+    author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},
+    journal={IEEE TPAMI},
+    year={2021}
+    }
+    
+    @article{hu2020jittor,
+    title={Jittor: a novel deep learning framework with meta-operators and unified graph execution},
+    author={Hu, Shi-Min and Liang, Dun and Yang, Guo-Ye and Yang, Guo-Wei and Zhou, Wen-Yang},
+    journal={Information Sciences},
+    volume={63},
+    number={222103},
+    pages={1--21},
+    year={2020}
+    }
