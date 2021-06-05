@@ -212,16 +212,14 @@ class Network(nn.Module):
 if __name__ == '__main__':
     import numpy as np
     from time import time
-    net = Network(imagenet_pretrained=False).cuda()
+    net = Network(imagenet_pretrained=False)
     net.eval()
 
-    dump_x = torch.randn(1, 3, 352, 352).cuda()
+    dump_x = torch.randn(1, 3, 352, 352)
     frame_rate = np.zeros((1000, 1))
     for i in range(1000):
-        torch.cuda.synchronize()
         start = time()
         y = net(dump_x)
-        torch.cuda.synchronize()
         end = time()
         running_frame_rate = 1 * float(1 / (end - start))
         print(i, '->', running_frame_rate)
