@@ -1,8 +1,10 @@
-# SINet-V2 with Jittor framework
+# 2021-TPAMI-Concealed Object Detection (SINetV2-Jittor Implementation)
 
 ## Introduction
 
-The repo provides inference code of SINet-V2 (TPAMI-2021) with Jittor deep-learning framework.
+The repo provides inference code of **SINet-V2 (TPAMI-2021)** with Jittor deep-learning framework.
+
+> **Jittor** is a high-performance deep learning framework based on JIT compiling and meta-operators. The whole framework and meta-operators are compiled just-in-time. A powerful op compiler and tuner are integrated into Jittor. It allowed us to generate high-performance code with specialized for your model. Jittor also contains a wealth of high-performance model libraries, including: image recognition, detection, segmentation, generation, differentiable rendering, geometric learning, reinforcement learning, etc. The front-end language is Python. Module Design and Dynamic Graph Execution is used in the front-end, which is the most popular design for deeplearning framework interface. The back-end is implemented by high performance language, such as CUDA,C++.
 
 ## Usage
 
@@ -37,8 +39,6 @@ can be used to the inference of Jittor model.
 |----------------------	|-------------	|-----------	|--------------	|-------	|
 |  PyTorch             	| 0.815       	| 0.887     	| 0.680        	| 0.037 	|
 |  Jittor              	|             	|           	|              	|       	|
-
-## Citation
 
 ## Citation
 
