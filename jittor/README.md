@@ -2,9 +2,7 @@
 
 ## Introduction
 
-The repo provides inference code of Jittor deep-learning framework. Note that the Jittor model is just 
-converted from the original PyTorch model via toolbox, and thus, the trained weights of PyTorch model 
-can be used to the inference of Jittor model.
+The repo provides inference code of SINet-V2 (TPAMI-2021) with Jittor deep-learning framework.
 
 ## Usage
 
@@ -22,7 +20,8 @@ A simple way to debug and run the script is running a new command in the contain
 
 ## Performance
 
-The performance has slight difference due to the difference of two frameworks.
+The performance has slight difference due to the difference of two frameworks. Note that the Jittor model is just converted from the original PyTorch model via toolbox, and thus, the trained weights of PyTorch model 
+can be used to the inference of Jittor model.
 
 | CHAMELEON dataset    	| $S_\alpha$  	| $E_\phi$  	| $F_\beta^w$  	| M     	|
 |----------------------	|-------------	|-----------	|--------------	|-------	|
