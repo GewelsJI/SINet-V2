@@ -20,25 +20,26 @@ A simple way to debug and run the script is running a new command in the contain
 
 + For testing, run `python3.7 jittor/MyTesting.py`. 
 
+> Note that the Jittor model is just converted from the original PyTorch model via toolbox, and thus, the trained weights of PyTorch model can be used to the inference of Jittor model.
+
 ## Performance
 
-The performance has slight difference due to the difference of two frameworks. Note that the Jittor model is just converted from the original PyTorch model via toolbox, and thus, the trained weights of PyTorch model 
-can be used to the inference of Jittor model.
+The performance has slight difference due to the difference of operation implemented between two frameworks. 
 
 | CHAMELEON dataset    	| $S_\alpha$  	| $E_\phi$  	| $F_\beta^w$  	| M     	|
 |----------------------	|-------------	|-----------	|--------------	|-------	|
 | PyTorch              	| 0.888       	| 0.942     	| 0.816        	| 0.030 	|
-| Jittor               	|             	|           	|              	|       	|
+| Jittor               	| 0.890      	| 0.943       	| 0.819        	| 0.030    	|
 
 |  CAMO-Test dataset   	| $S_\alpha$  	| $E_\phi$  	| $F_\beta^w$  	| M     	|
 |----------------------	|-------------	|-----------	|--------------	|-------	|
 |  PyTorch             	| 0.820       	| 0.882     	| 0.743        	| 0.070 	|
-|  Jittor              	|             	|           	|              	|       	|
+|  Jittor              	| 0.820       	| 0.881     	| 0.743        	| 0.070 	|
 
 |  COD10K-Test dataset 	| $S_\alpha$  	| $E_\phi$  	| $F_\beta^w$  	| M     	|
 |----------------------	|-------------	|-----------	|--------------	|-------	|
 |  PyTorch             	| 0.815       	| 0.887     	| 0.680        	| 0.037 	|
-|  Jittor              	|             	|           	|              	|       	|
+|  Jittor              	| 0.816       	| 0.888     	| 0.681        	| 0.037 	|
 
 ## Citation
 
