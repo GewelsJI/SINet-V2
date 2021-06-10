@@ -22,7 +22,7 @@ A simple way to debug and run the script is running a new command in the contain
 
 > Note that the Jittor model is just converted from the original PyTorch model via toolbox, and thus, the trained weights of PyTorch model can be used to the inference of Jittor model.
 
-## Performance
+## Performance Comparison
 
 The performance has slight difference due to the different operator implemented between two frameworks. 
 
@@ -40,6 +40,17 @@ The performance has slight difference due to the different operator implemented 
 |----------------------	|-------------	|-----------	|--------------	|-------	|
 |  PyTorch             	| 0.815       	| 0.887     	| 0.680        	| 0.037 	|
 |  Jittor              	| 0.816       	| 0.888     	| 0.681        	| 0.037 	|
+
+## Speedup
+
+The jittor-based code can speed up the inference efficiency.
+
+| Batch Size  	|     PyTorch    	|     Jittor     	|     Speedup    	|
+|-----------	|----------------	|----------------	|----------------	|
+|     1     	|     52 FPS     	|     70 FPS     	|     1.35x       	|
+|     4     	|     181 FPS    	|     275 FPS    	|     1.52x       	|
+|     8     	|     372 FPS    	|     509 FPS    	|     1.37x      	|
+|     16    	|     466 FPS    	|     577 FPS    	|     1.24x       	|
 
 ## Citation
 
