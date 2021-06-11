@@ -1,6 +1,6 @@
 # Concealed Object Detection (SINet-V2, IEEE TPAMI)
 
-PyTorch implementation of our Search and Identification Network (SINet-V2).
+PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2).
 
 > **Authors:** 
 > [Deng-Ping Fan](https://dpfan.net/), 
@@ -25,9 +25,10 @@ Please refer to our paper for more details.
 ## 2. :fire: NEWS :fire:
 
 - [2021/06/11] :fire: <图形与几何计算公众号>报道：[计图开源：隐蔽目标检测新任务在计图框架下推理性能大幅提升](https://mp.weixin.qq.com/s/2vdGRzAC7_udlsAuIkE2dg)。 
-- [2021/06/05] :fire: The [Jittor convertion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now, please enjoy it. 
+- [2021/06/05] :fire: The [Jittor convertion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now.
+  It has robust inference efficiency compared to PyTorch version, please enjoy it. 
   Many thanks to Yu-Cheng Chou for the excellent conversion from pytorch framework)
-- [2021/06/01] :fire: Our TPAMI-2021 paper is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
+- [2021/06/01] :fire: Our **TPAMI-2021** paper is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
 - [2021/05/16] [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) code will come soon ...
 - [2021/05/01] Updating the download link of training/testing dataset in our experiments.
 - [2021/04/20] The release of inference map on the [2021-CVPR-NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) test dataset, which can be downloaded from the [Google Drive](https://drive.google.com/file/d/1ux2-eDSaAu0EcEV-s04s5u-H27W5siFx/view?usp=sharing).
@@ -125,10 +126,10 @@ They can be found in [download link](https://drive.google.com/file/d/1wSCvCXaaRL
 Please cite our paper if you find the work useful: 
 
     @article{fan2021concealed,
-    title={Concealed Object Detection},
-    author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},
-    journal={IEEE TPAMI},
-    year={2021}
+      title={Concealed Object Detection},
+      author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},
+      journal={IEEE TPAMI},
+      year={2021}
     }
 
 ## 6. FAQ

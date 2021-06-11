@@ -12,7 +12,7 @@ parser.add_argument('--pth_path', type=str, default='./snapshot/20201214-Network
 opt = parser.parse_args()
 
 for _data_name in ['vis']:
-    data_path = '/media/nercms/NERCMS/GepengJi/2020ACMMM/Dataset/COD_New_data/{}/'.format(_data_name)
+    data_path = '/{}/'.format(_data_name)
     save_path = './res/{}/middle_vis/{}/'.format(opt.pth_path.split('/')[-2], _data_name)
     model = Network()
     model.load_state_dict(torch.load(opt.pth_path))

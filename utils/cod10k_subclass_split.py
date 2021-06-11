@@ -3,8 +3,8 @@ import shutil
 
 
 def split_GT():
-    src_root = '/media/nercms/NERCMS/GepengJi/2020ACMMM/Dataset/COD_New_data/TestDataset/COD10K/GT'
-    dst_root = '/media/nercms/NERCMS/GepengJi/2020ACMMM/Dataset/COD_New_data/TestDataset'
+    src_root = ''
+    dst_root = ''
 
     for img_name in os.listdir(src_root):
         sub_class = img_name.split('-')[3]
@@ -17,8 +17,8 @@ def split_GT():
 
 
 def split_pred():
-    src_root = '/media/nercms/NERCMS/GepengJi/2021-TPAMI-COD/tpami2021-sinet-v2/res/CamouflageMapSubmission/2020-MICCAI-PraNet/COD10K'
-    dst_root = '/media/nercms/NERCMS/GepengJi/2021-TPAMI-COD/tpami2021-sinet-v2/res/CamouflageMapSubmission/2020-MICCAI-PraNet'
+    src_root = ''
+    dst_root = ''
 
     for img_name in os.listdir(src_root):
         sub_class = img_name.split('-')[3]

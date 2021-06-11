@@ -1,22 +1,10 @@
 import os
 
-"""
-#1: 
-#2: 20210103-Network_Res2Net_GRA_NCD_PartialDecoder
-#3: 20210103-Network_Res2Net_GRA_NCD_withoutTEM
-#4: 20210103-Network_Res2Net_GRA_NCD_sym_conv
-#5: 20210104-Network_Res2Net_GRA_NCD_NoReverse  -> re train?
-#6: 20210104-Network_Res2Net_GRA_NCD_Reverse_1_1_0
-#7: 20210103-Network_Res2Net_GRA_NCD_AllReverse
-#11: 20210104-Network_Res2Net_GRA_NCD_32_32_32  -> EvaluationResults_ablation_script_new_4
-#12: 20210104-Network_Res2Net_GRA_NCD_1_8_32
-"""
-
 
 def generate_benchmark_table():
-    res_root = '../eval/EvaluationResults_ablation_script_new_3'
+    res_root = ''
     data_lst = ['CHAMELEON', 'CAMO', 'COD10K']
-    model_lst = ['20210106-Network_Res2Net_GRA_NCD_GSize_32_32_32']
+    model_lst = ['']
 
     for i in range(len(model_lst)):
         for j in range(len(data_lst)):
