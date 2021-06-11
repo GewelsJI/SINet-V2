@@ -4,7 +4,7 @@ PyTorch implementation of our extended model, termed as Search and Identificatio
 
 > **Authors:** 
 > [Deng-Ping Fan](https://dpfan.net/), 
-> Ge-Peng Ji, 
+> [Ge-Peng Ji](https://github.com/GewelsJI), 
 > [Ming-Ming Cheng](https://mmcheng.net/) &
 > [Ling Shao](http://www.inceptioniai.org/).
 
