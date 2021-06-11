@@ -24,6 +24,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
+- [2021/06/11] :fire: _<图形与几何计算公众号>_报道：[计图开源：隐蔽目标检测新任务在计图框架下推理性能大幅提升](https://mp.weixin.qq.com/s/2vdGRzAC7_udlsAuIkE2dg)。 
 - [2021/06/05] :fire: The [Jittor convertion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now, please enjoy it. 
   Many thanks to Yu-Cheng Chou for the excellent conversion from pytorch framework)
 - [2021/06/01] :fire: Our TPAMI-2021 paper is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
