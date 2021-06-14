@@ -123,7 +123,7 @@ They can be found in [download link](https://drive.google.com/file/d/1wSCvCXaaRL
 
 ## 4. Citation
 
-Please cite our paper if you find the work useful: 
+If you find this project useful, please consider citing:
 
     @article{fan2021concealed,
       title={Concealed Object Detection},
