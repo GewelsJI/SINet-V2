@@ -1,4 +1,4 @@
-# Concealed Object Detection (SINet-V2, IEEE TPAMI)
+# <p align=center>`Concealed Object Detection (IEEE TPAMI)`</p>
 
 PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2).
 
