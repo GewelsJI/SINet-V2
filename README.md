@@ -19,7 +19,7 @@ well-elaborated sub-modules, including neighbor connection decoder (NCD) and gro
 Please refer to our paper for more details.
 
 > If you have any questions about our paper, feel free to contact me via e-mail (gepengai.ji@gmail.com). 
-> And if you are using our our and evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
+> And if you are using our code and evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
 
 
 ## 2. :fire: NEWS :fire:
