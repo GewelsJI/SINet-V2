@@ -90,10 +90,10 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 1. Prepare the data:
 
     + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
-    which can be found in [Baidu Driver](https://pan.baidu.com/s/16QnoxIK3UB_QwnGZMCZ3uQ) (Password: hvov).
+    which can be found in [Google Drive](https://drive.google.com/file/d/120wKRvwXpqqeEejw60lYsEyZ4SOicR3M/view?usp=sharing).
 
     + downloading training/validation dataset and move it into `./Dataset/TrainValDataset/`, 
-    which can be found in [Baidu Driver](https://pan.baidu.com/s/1yKaGYr4oztR0lGan1nJ4kQ) (Password: hdj7).
+    which can be found in [Google Drive](https://drive.google.com/file/d/1bTIb2qo7WXfyLgCn43Pz0ZDQ4XceO9dE/view?usp=sharing)
     
     + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1XrUOmgB86L84JefoNq0gq2scBZjGaTkm/view?usp=sharing).
