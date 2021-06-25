@@ -3,6 +3,7 @@ import torch.nn.functional as F
 import numpy as np
 import os, argparse
 from scipy import misc
+import cv2
 from lib.Network_Res2Net_GRA_NCD import Network
 from utils.data_val import test_dataset
 
@@ -14,7 +15,7 @@ opt = parser.parse_args()
 for _data_name in ['CAMO', 'COD10K', 'CHAMELEON']:
     data_path = './Dataset/TestDataset/{}/'.format(_data_name)
     save_path = './res/{}/{}/'.format(opt.pth_path.split('/')[-2], _data_name)
-    model = Network()
+    model = Network(imagenet_pretrained=False)
     model.load_state_dict(torch.load(opt.pth_path))
     model.cuda()
     model.eval()
@@ -37,3 +38,5 @@ for _data_name in ['CAMO', 'COD10K', 'CHAMELEON']:
         res = (res - res.min()) / (res.max() - res.min() + 1e-8)
         print('> {} - {}'.format(_data_name, name))
         misc.imsave(save_path+name, res)
+        # If `mics` not works in your environment, please comment it and then use CV2
+        cv2.imwrite(save_path+name,res*255)
