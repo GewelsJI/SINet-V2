@@ -25,7 +25,7 @@ Please refer to our paper for more details.
 ## 2. :fire: NEWS :fire:
 
 - [2021/06/16] Update latest download link ([Pytorch](https://drive.google.com/file/d/1I3vKdcjafkTb2U2pOke07khurXxqLpzR/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/13DeX-IMFE6u0TnNG5blUvHzo5o21cVpc/view?usp=sharing)) on four testing dataset, including CHAMELEON, CAMO, COD10K, NC4K.
-- [2021/06/11] :fire: 「图形与几何计算」公众号报道：[计图开源：隐蔽目标检测新任务在计图框架下推理性能大幅提升](https://mp.weixin.qq.com/s/2vdGRzAC7_udlsAuIkE2dg)。 
+- [2021/06/11] :fire: 「图形与几何计算」公众号报道：[计图开源：隐蔽目标检测新任务在计图框架下推理性能大幅提升](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-06-11-00-00-cod/)。 
 - [2021/06/05] The [Jittor convertion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now.
   It has robust inference efficiency compared to PyTorch version, please enjoy it. 
   Many thanks to Yu-Cheng Chou for the excellent conversion from pytorch framework)
