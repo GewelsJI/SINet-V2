@@ -24,6 +24,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
+- [2021/10/09] Note that there are two images (`COD10K-CAM-1-Aquatic-3-Crab-32.png` and `COD10K-CAM-2-Terrestrial-23-Cat-1506.png`) that overlap between the training and test set of COD10K. You can either keep or discard those two images because they only slightly affect the final performance (~0.1% changes in terms of different metrics).
 - [2021/07/20] HUAWEI 藤蔓技术论坛2021 Talk: “伪装目标检测技术与应用”，报告人：范登平，2021. （[PPT下载](http://dpfan.net/wp-content/uploads/IIAI-%E4%BC%AA%E8%A3%85%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8-V6.pptx)）
 - [2021/06/16] Update latest download link ([Pytorch](https://drive.google.com/file/d/1I3vKdcjafkTb2U2pOke07khurXxqLpzR/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/13DeX-IMFE6u0TnNG5blUvHzo5o21cVpc/view?usp=sharing)) on four testing dataset, including CHAMELEON, CAMO, COD10K, and NC4K.
 - [2021/06/11] :fire: 「图形与几何计算」公众号报道：[计图开源：隐蔽目标检测新任务在计图框架下推理性能大幅提升](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-06-11-00-00-cod/)。 
