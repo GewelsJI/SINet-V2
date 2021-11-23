@@ -146,7 +146,7 @@ If you find this project useful, please consider citing:
     
 ## 7. License
 
-The source code is free for research and education use only. Any comercial use should get formal permission first.
+The source code is free for research and education use only. Any commercial usage should get formal permission first.
 
 ---
 
