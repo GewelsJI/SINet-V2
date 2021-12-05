@@ -47,7 +47,7 @@ for d = 1:datasetNum
         gtPath = [DataPath dataset '/GT/'];
         camPath = [CamMapPath model '/' dataset '/'];
         
-        imgFiles = dir([camPath '*.png']);  
+        imgFiles = dir([gtPath '*.png']);  
         imgNUM = length(imgFiles);
         
         [threshold_Fmeasure, threshold_Emeasure] = deal(zeros(imgNUM,length(Thresholds)));
