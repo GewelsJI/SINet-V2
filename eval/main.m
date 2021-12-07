@@ -93,7 +93,8 @@ for d = 1:datasetNum
             wFmeasure(i) = original_WFb(cam, logical(gt));
             
             % Using the 2 times of average of cam map as the threshold.
-            threshold =  2 * mean(cam(:)) ;
+            %threshold =  2 * mean(cam(:));    %To insure max value is less than 1.
+            threshold = min(2 * mean2(cam), 1);
             [~, ~, adpFmeasure(i)] = Fmeasure_calu(cam,double(gt),size(gt),threshold);
             
             Bi_cam = zeros(size(cam));
