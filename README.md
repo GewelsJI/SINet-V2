@@ -24,7 +24,7 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
-- [2021/12/26] :fire: PraNet模型在[Jittor Developer Conference 2021](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-12-27-15-27-00-00-jdc1/)中荣获「优秀计图论文奖」
+- [2021/12/26] :fire: SINetV2模型在[Jittor Developer Conference 2021](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-12-27-15-27-00-00-jdc1/)中荣获「优秀计图论文奖」
 - [2021/12/14] :fire: 恭喜四川大学[傅可人教授团队](http://www.kerenfu.top/)的课题「面向工业质检的通用缺陷检测模型」基于SINetV2模型作为分割基线模型，参与“中信银行杯”第三届中国研究生人工智能创新大赛并取得喜人成绩.「[初赛企业组赛题-总排名第一](https://cpipc.acge.org.cn//cw/detail/2c9088a5696cbf370169a3f8101510bd/2c9080147c35e5a8017c5e7e939c43d6) 和 [总决赛-二等奖](https://cpipc.acge.org.cn//cw/detail/2c9088a5696cbf370169a3f8101510bd/2c90800c7da2aae7017db76b3abf07c6)」
 - [2021/10/10] Delivering a spotlight presentation 「伪装目标检测技术及其应用」 in VALSE 2021. The poster file can be found at [link (paper id-31)](http://valser.org/2021/#/poster).
 - [2021/10/09] Note that there are two images (`COD10K-CAM-1-Aquatic-3-Crab-32.png` and `COD10K-CAM-2-Terrestrial-23-Cat-1506.png`) that overlap between the training and test set of COD10K. You can either keep or discard those two images because they only slightly affect the final performance (~0.1% changes in terms of different metrics).
