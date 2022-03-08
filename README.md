@@ -136,7 +136,15 @@ If you find this project useful, please consider citing:
       title={Concealed Object Detection},
       author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},
       journal={IEEE TPAMI},
-      year={2021}
+      year={2022}
+    }
+    
+    @inproceedings{fan2020camouflaged,
+      title={Camouflaged object detection},
+      author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
+      booktitle={IEEE CVPR},
+      pages={2777--2787},
+      year={2020}
     }
 
 ## 6. FAQ
