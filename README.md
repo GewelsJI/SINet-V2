@@ -3,7 +3,7 @@
 PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2).
 
 > **Authors:** 
-> [Deng-Ping Fan](https://dpfan.net/), 
+> [Deng-Ping Fan](https://dengpingfan.github.io/), 
 > [Ge-Peng Ji](https://github.com/GewelsJI), 
 > [Ming-Ming Cheng](https://mmcheng.net/) &
 > [Ling Shao](http://www.inceptioniai.org/).
