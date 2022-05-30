@@ -18,7 +18,7 @@ A simple way to debug and run the script is running a new command in the contain
 
 + Second, switch to the project root by `cd /home/SINet-V2`
 
-+ For testing, run `python3.7 jittor/MyTesting.py`. 
++ For testing, run `python3.7 jittor_lib/MyTesting.py`. 
 
 > Note that the Jittor model is just converted from the original PyTorch model via toolbox, and thus, the trained weights of PyTorch model can be used to the inference of Jittor model.
 
