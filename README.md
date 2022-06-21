@@ -95,15 +95,15 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 1. Prepare the data:
 
     + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
-    which can be found in [Google Drive]([https://drive.google.com/file/d/120wKRvwXpqqeEejw60lYsEyZ4SOicR3M/view?usp=sharing](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVI0Bjs7k_VIvz4HmSVV9egBo48vjwX7pvx7deXBtooBYg?e=FjGqZZ)).
+    which can be found in [OneDrive](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVI0Bjs7k_VIvz4HmSVV9egBo48vjwX7pvx7deXBtooBYg?e=FjGqZZ).
 
     + downloading training/validation dataset and move it into `./Dataset/TrainValDataset/`, 
-    which can be found in [Google Drive]([https://drive.google.com/file/d/1bTIb2qo7WXfyLgCn43Pz0ZDQ4XceO9dE/view?usp=sharing](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EQ75AD2A5ClIgqNv6yvstSwBQ1jJNC6DNbk8HISuxPV9QA?e=UhHKSD))
+    which can be found in [OneDrive](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EQ75AD2A5ClIgqNv6yvstSwBQ1jJNC6DNbk8HISuxPV9QA?e=UhHKSD)
     
     + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
-    which can be found in this [download link (Google Drive)]([https://drive.google.com/file/d/1XrUOmgB86L84JefoNq0gq2scBZjGaTkm/view?usp=sharing](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVU4T03bwF9ApK7-ilMFe5oB4ymicZv6NLw3Qf9t5psujA?e=A3b7tf)).
+    which can be found in [OneDrive](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVU4T03bwF9ApK7-ilMFe5oB4ymicZv6NLw3Qf9t5psujA?e=A3b7tf).
     
-    + downloading Res2Net weights on ImageNet dataset [download link (Google Drive)]([https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/ETPXmFGOAstDluY2UPI5BKMBeM3RYTEUiA9DhKT8D-kfeA?e=NJP4Gc)).
+    + downloading Res2Net weights on ImageNet dataset [download link (OneDrive)](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/ETPXmFGOAstDluY2UPI5BKMBeM3RYTEUiA9DhKT8D-kfeA?e=NJP4Gc).
    
 1. Training Configuration:
 
