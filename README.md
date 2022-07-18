@@ -8,6 +8,10 @@ PyTorch implementation of our extended model, termed as Search and Identificatio
 > [Ming-Ming Cheng](https://mmcheng.net/) &
 > [Ling Shao](http://www.inceptioniai.org/).
 
+<p align="center">
+    <img src="./imgs/SINet-V2-Award.png"/> <br />
+</p>
+
 ## 1. Features
 
 - **Introduction.** This repository contains the source code, prediction results, and evaluation toolbox of our Search and Identification Network, also called SINet-V2 ([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf) / [SuppMaterial](http://dpfan.net/wp-content/uploads/ConcealedOD_supp.pdf) / [ProjectPage](http://dpfan.net/Camouflage/))
