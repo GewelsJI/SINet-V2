@@ -24,12 +24,14 @@ https://user-images.githubusercontent.com/38354957/201454018-f59b0b91-c952-4af3-
 well-elaborated sub-modules, including neighbor connection decoder (NCD) and group-reversal attention (GRA). 
 Please refer to our paper for more details.
 
-> If you have any questions about our paper, feel free to contact me via e-mail (gepengai.ji@gmail.com). 
-> And if you are using our code and evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
 
 <p align="center">
     <img src="./imgs/SINet-V2-Award.png"/> <br />
 </p>
+
+
+> If you have any questions about our paper, feel free to contact me via e-mail (gepengai.ji@gmail.com). 
+> And if you are using our code and evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
 
 ## 2. :fire: NEWS :fire:
 
