@@ -8,9 +8,11 @@ PyTorch implementation of our extended model, termed as Search and Identificatio
 > [Ming-Ming Cheng](https://mmcheng.net/) &
 > [Ling Shao](http://www.inceptioniai.org/).
 
-<p align="center">
-    <img src="./imgs/SINet-V2-Award.png"/> <br />
-</p>
+Here is a toy-example for our task. Could you find camouflaged objects in this video?
+
+
+https://user-images.githubusercontent.com/38354957/201454018-f59b0b91-c952-4af3-8828-802fd1490453.mp4
+
 
 ## 1. Features
 
@@ -25,6 +27,9 @@ Please refer to our paper for more details.
 > If you have any questions about our paper, feel free to contact me via e-mail (gepengai.ji@gmail.com). 
 > And if you are using our code and evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
 
+<p align="center">
+    <img src="./imgs/SINet-V2-Award.png"/> <br />
+</p>
 
 ## 2. :fire: NEWS :fire:
 
