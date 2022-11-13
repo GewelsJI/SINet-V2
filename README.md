@@ -1,20 +1,20 @@
 # <p align=center>`Concealed Object Detection (IEEE TPAMI)`</p>
 
-PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2).
+PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.
 
 > **Authors:** 
 > [Deng-Ping Fan](https://dengpingfan.github.io/), 
 > [Ge-Peng Ji](https://github.com/GewelsJI), 
-> [Ming-Ming Cheng](https://mmcheng.net/) &
+> [Ming-Ming Cheng*](https://mmcheng.net/) &
 > [Ling Shao](http://www.inceptioniai.org/).
-
-Here is a toy-example for our task. Could you find camouflaged objects in this video?
-
-
-https://user-images.githubusercontent.com/38354957/201454018-f59b0b91-c952-4af3-8828-802fd1490453.mp4
 
 
 ## 1. Features
+
+
+- Here is a toy-example for our task. Could you find camouflaged objects in this video?
+
+    https://user-images.githubusercontent.com/38354957/201454018-f59b0b91-c952-4af3-8828-802fd1490453.mp4
 
 - **Introduction.** This repository contains the source code, prediction results, and evaluation toolbox of our Search and Identification Network, also called SINet-V2 ([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf) / [SuppMaterial](http://dpfan.net/wp-content/uploads/ConcealedOD_supp.pdf) / [ProjectPage](http://dpfan.net/Camouflage/))
 , which are the journal extension version of our paper SINet ([github](https://github.com/DengPingFan/SINet) /
@@ -33,8 +33,10 @@ Please refer to our paper for more details.
 > If you have any questions about our paper, feel free to contact me via e-mail (gepengai.ji@gmail.com). 
 > And if you are using our code and evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
 
+
 ## 2. :fire: NEWS :fire:
 
+- [2022/11/13] We release a awesome paper list ([link](https://github.com/GewelsJI/SINet-V2/blob/main/AWESOME_COD_LIST.md)) for our camouflaged object detection community. 
 - [2021/12/26] :fire: < Concealed Object Detection > 论文在[Jittor Developer Conference 2021](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-12-27-15-27-00-00-jdc1/)中荣获「优秀计图论文奖」
 - [2021/12/14] :fire: 恭喜四川大学[傅可人教授团队](http://www.kerenfu.top/)的课题「面向工业质检的通用缺陷检测模型」基于SINetV2模型作为分割基线模型，参与“中信银行杯”第三届中国研究生人工智能创新大赛并取得喜人成绩.「[初赛企业组赛题-总排名第一](https://cpipc.acge.org.cn//cw/detail/2c9088a5696cbf370169a3f8101510bd/2c9080147c35e5a8017c5e7e939c43d6) 和 [总决赛-二等奖](https://cpipc.acge.org.cn//cw/detail/2c9088a5696cbf370169a3f8101510bd/2c90800c7da2aae7017db76b3abf07c6)」
 - [2021/10/10] Delivering a spotlight presentation 「伪装目标检测技术及其应用」 in VALSE 2021. The poster file can be found at [link (paper id-31)](http://valser.org/2021/#/poster).
