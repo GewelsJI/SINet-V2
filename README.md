@@ -140,8 +140,10 @@ The complete evaluation toolbox (including data, map, eval code, and res): [link
 ### 3.3 Pre-computed maps: 
 They can be found in download link([Pytorch](https://drive.google.com/file/d/1I3vKdcjafkTb2U2pOke07khurXxqLpzR/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/13DeX-IMFE6u0TnNG5blUvHzo5o21cVpc/view?usp=sharing)) on four testing dataset, including CHAMELEON, CAMO, COD10K, NC4K.
 
+## 4. SOTA models
+Link: [https://github.com/GewelsJI/SINet-V2/blob/main/AWESOME_COD_LIST.md](https://github.com/GewelsJI/SINet-V2/blob/main/AWESOME_COD_LIST.md)
 
-## 4. Citation
+## 5. Citation
 
 If you find this project useful, please consider citing:
 
