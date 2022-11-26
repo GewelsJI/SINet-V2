@@ -68,6 +68,7 @@ This awesome list is under construction. If you have anything to recommend or an
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+|   2023   |  AAAI   | High-resolution Iterative Feedback Network for Camouflaged Object Detection <br> <sup><sub>*Xiaobin Hu, Shuo Wang, Xuebin Qin, Hang Dai, Wenqi Ren, Donghao Luo, Ying Tai, Ling Shao*</sub></sup> | [Paper](https://arxiv.org/abs/2203.11624)/[Code](https://github.com/HUuxiaobin/HitNet) 
 | 2023  | MIR   | **Deep Gradient Learning for Efficient Camouflaged Object Detection** (`DGNet model`) <br><sup><sub>*Ge-Peng Ji, Deng-Ping Fan, Yu-Cheng Chou, Dengxin Dai, Alexander Liniger, Luc Van Gool*</sub></sup>  | [Paper](https://arxiv.org/abs/2205.12853v2)/[Code](https://github.com/GewelsJI/DGNet)
 
 ####  2.2.2. <a name='YEAR2022'></a>YEAR 2022
@@ -77,7 +78,7 @@ This awesome list is under construction. If you have anything to recommend or an
 |   2022   |   TPAMI   | **Concealed Object Detection** (`SINetV2 model & COD10K dataset`)                       <br><sup><sub>*Deng-Ping Fan, Ge-Peng Ji, Ming-Ming Cheng, Ling Shao*</sub></sup>                             | [Paper](https://arxiv.org/abs/2102.10274)/[Code](https://github.com/GewelsJI/SINet-V2)  
 |   2022   |  arXiv   | **Boundary-Aware Segmentation Network for Mobile and Web Applications** (`BAS model`) <br> <sup><sub>*Xuebin Qin, Deng-Ping Fan, Chenyang Huang, et al.*</sub></sup> | [Paper](https://arxiv.org/pdf/2101.04704.pdf)/[Code](https://github.com/xuebinqin/BASNet) 
 | 2022     | arXiv | Towards Deeper Understanding of Camouflaged Object Detection (`LSR extension`) <br> <sup><sub>*Yunqiu Lv, Jing Zhang, Yuchao Dai, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2205.11333)/[Code](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment)
-|   2022   |  arXiv   | High-resolution Iterative Feedback Network for Camouflaged Object Detection <br> <sup><sub>*Xiaobin Hu, Deng-Ping Fan, Xuebin Qin, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2203.11624)/[Code](https://github.com/HUuxiaobin/HitNet) 
+
 |   2022   |  arXiv   | Transformer transforms salient object detection and camouflaged object detection <br> <sup><sub>*Yuxin Mao, Jing Zhang, Yuchao Dai, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2104.10127)/[Code](https://github.com/fupiao1998/TrasformerSOD)
 |   2022   |   ACM MM     | PreyNet: Preying on camouflaged objects <br> <sup><sub>*M Zhang, S Xu, Yongri Piao, D Shi, S Lin, H Lu*</sub></sup> | [Paper](https://dl.acm.org/doi/abs/10.1145/3503161.3548178)/[Code](https://github.com/sxu1997/PreyNet)
 |   2022   |  IJCAI   | Boundary-Guided Camouflaged Object Detection <br> <sup><sub>*Yujia Sun, Shuo Wang, Chenglizhao Chen, Tian-Zhu Xiang*</sub></sup> | [Paper](https://www.ijcai.org/proceedings/2022/186)/[Code](https://github.com/thograce/BGNet)
