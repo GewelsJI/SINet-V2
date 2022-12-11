@@ -167,7 +167,13 @@ If you find this project useful, please consider citing:
 1. If the image cannot be loaded in the page (mostly in the domestic network situations).
 
     [Solution Link](https://blog.csdn.net/weixin_42128813/article/details/102915578)
-    
+
+2. *Erratum:* The sub-figure (b) in Figure.17 of our paper is revised as follows. It shows that the decoder in 2019-CVPR-CPD builds the connection flow between $f’_5$ branch and $f’_4$ branch, rather than $f’_4$ branch and $f’_3$ branch.
+   
+   <p align="center">
+    <img src="./imgs/figure17_revision.png" width="200" /> <br />
+    </p>
+
     
 ## 7. License
 
