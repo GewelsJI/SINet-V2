@@ -15,34 +15,28 @@ This awesome list is under construction. If you have anything to recommend or an
 < **Last updated: Nov/12/2022** >
 
 
-##  1. <a name='Content'></a>Content
-
-<!-- vscode-markdown-toc -->
-* 1. [Content](#Content)
-* 2. [Paper List](#PaperList)
-	* 2.1. [Datasets & Benchmarks](#DatasetsBenchmarks)
-		* 2.1.1. [Video-level COD](#Video-levelCOD)
-		* 2.1.2. [Image-level COD](#Image-levelCOD)
-	* 2.2. [Camouflaged Object Detection (COD)](#CamouflagedObjectDetectionCOD)
-		* 2.2.1. [YEAR 2023](#YEAR2023)
-		* 2.2.2. [YEAR 2022](#YEAR2022)
-		* 2.2.3. [YEAR 2021](#YEAR2021)
-		* 2.2.4. [Before YEAR 2020](#BeforeYEAR2020)
-	* 2.3. [Camouflaged Instance Segmentation (CIS)](#CamouflagedInstanceSegmentationCIS)
-	* 2.4. [Video Camouflaged Object Detection (VCOD)](#VideoCamouflagedObjectDetectionVCOD)
-
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+##  1. Content
 
 
-##  2. <a name='PaperList'></a>Paper List
+- [`Awesome List for Camouflaged Object Detection (COD)`](#awesome-list-for-camouflaged-object-detection-cod)
+	- [1. Content](#1-content)
+	- [2. Paper List](#2-paper-list)
+		- [2.1. Datasets \& Benchmarks](#21-datasets--benchmarks)
+			- [2.1.1. Video-level COD](#211-video-level-cod)
+			- [2.1.2. Image-level COD](#212-image-level-cod)
+		- [2.2. Camouflaged Object Detection (COD)](#22-camouflaged-object-detection-cod)
+			- [2.2.1. YEAR 2023](#221-year-2023)
+			- [2.2.2. YEAR 2022](#222-year-2022)
+			- [2.2.3. YEAR 2021](#223-year-2021)
+			- [2.2.4. Before YEAR 2020](#224-before-year-2020)
+		- [2.3. Camouflaged Instance Segmentation (CIS)](#23-camouflaged-instance-segmentation-cis)
+		- [2.4. Video Camouflaged Object Detection (VCOD)](#24-video-camouflaged-object-detection-vcod)
 
-###  2.1. <a name='DatasetsBenchmarks'></a>Datasets & Benchmarks
+##  2. Paper List
 
-####  2.1.1. <a name='Video-levelCOD'></a>Video-level COD
+###  2.1. Datasets & Benchmarks
+
+####  2.1.1. Video-level COD
 
 | **Dataset Name** | **Year** | **Publication** | **Links** |
 | :------: | :------: | :-------: | :---------|
@@ -50,7 +44,7 @@ This awesome list is under construction. If you have anything to recommend or an
 [MoCA](https://www.robots.ox.ac.uk/~vgg/data/MoCA/) | 2020 | ACCV | [Paper](https://openaccess.thecvf.com/content/ACCV2020/html/Lamdouar_Betrayed_by_Motion_Camouflaged_Object_Discovery_via_Motion_Segmentation_ACCV_2020_paper.html) |
 
 
-####  2.1.2. <a name='Image-levelCOD'></a>Image-level COD
+####  2.1.2. Image-level COD
 
 | **Dataset Name** | **Year** | **Publication** | **Links** |
 | :------: | :------: | :-------: | :---------|
@@ -61,17 +55,17 @@ This awesome list is under construction. If you have anything to recommend or an
 [CHAMELEON](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) | 2017 | Online | [Website](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) |
 
 
-###  2.2. <a name='CamouflagedObjectDetectionCOD'></a>Camouflaged Object Detection (COD)
+###  2.2. Camouflaged Object Detection (COD)
 
 
-####  2.2.1. <a name='YEAR2023'></a>YEAR 2023
+####  2.2.1. YEAR 2023
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
 |   2023   |  AAAI   | High-resolution Iterative Feedback Network for Camouflaged Object Detection <br> <sup><sub>*Xiaobin Hu, Shuo Wang, Xuebin Qin, Hang Dai, Wenqi Ren, Donghao Luo, Ying Tai, Ling Shao*</sub></sup> | [Paper](https://arxiv.org/abs/2203.11624)/[Code](https://github.com/HUuxiaobin/HitNet) 
 | 2023  | MIR   | **Deep Gradient Learning for Efficient Camouflaged Object Detection** (`DGNet model`) <br><sup><sub>*Ge-Peng Ji, Deng-Ping Fan, Yu-Cheng Chou, Dengxin Dai, Alexander Liniger, Luc Van Gool*</sub></sup>  | [Paper](https://arxiv.org/abs/2205.12853v2)/[Code](https://github.com/GewelsJI/DGNet)
 
-####  2.2.2. <a name='YEAR2022'></a>YEAR 2022
+####  2.2.2. YEAR 2022
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
@@ -95,7 +89,7 @@ This awesome list is under construction. If you have anything to recommend or an
 | 2022  | arXiv | Weakly-Supervised Camouflaged Object Detection with Scribble Annotations <br><sup><sub>*Ruozhen He, Qihua Dong, Jiaying Lin, Rynson W.H. Lau*</sub></sup> | [Paper](https://arxiv.org/abs/2207.14083)
 
 
-####  2.2.3. <a name='YEAR2021'></a>YEAR 2021
+####  2.2.3. YEAR 2021
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
@@ -115,7 +109,7 @@ This awesome list is under construction. If you have anything to recommend or an
 |   2021   |  arXiv   | Exploring Depth Contribution for Camouflaged Object Detection <br> <sup><sub>*Mochu Xiang, Jing Zhang, Yunqiu Lv, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2106.13217v3)/Code
 |   2021   |  arXiv   | Towards Accurate Camouflaged Object Detection with Mixture Convolution and Interactive Fusion <br> <sup><sub>*Bo Dong, Mingchen Zhuge, Yongxiong Wang, Hongbo Bi, Geng Chen*</sub></sup> | [Paper](https://arxiv.org/pdf/2101.05687.pdf)/[Code](https://github.com/BigHeartDB/MCIFNet)  
 
-####  2.2.4. <a name='BeforeYEAR2020'></a>Before YEAR 2020 
+####  2.2.4. Before YEAR 2020 
 
 | **Year** | **Publication** | **Title**                                                    | **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -127,7 +121,7 @@ This awesome list is under construction. If you have anything to recommend or an
 
 
 
-###  2.3. <a name='CamouflagedInstanceSegmentationCIS'></a>Camouflaged Instance Segmentation (CIS)
+###  2.3. Camouflaged Instance Segmentation (CIS)
 
 
 | **Year** | **Publication** | **Title**                                                    | **Links**                                                    |
@@ -136,7 +130,7 @@ This awesome list is under construction. If you have anything to recommend or an
 |   2022   |  TIP  | Camouflaged Instance Segmentation In-The-Wild: Dataset, Method, and Benchmark Suite <br> <sup><sub>*Trung-Nghia Le, Yubo Cao, Tan-Cong Nguyen, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2103.17123)/[Project](https://sites.google.com/view/ltnghia/research/camo_plus_plus)
 
 
-###  2.4. <a name='VideoCamouflagedObjectDetectionVCOD'></a>Video Camouflaged Object Detection (VCOD)
+###  2.4. Video Camouflaged Object Detection (VCOD)
 
 | **Year** | **Publication** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |

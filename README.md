@@ -12,7 +12,7 @@ PyTorch implementation of our extended model, termed as Search and Identificatio
 ## 1. Features
 
 
-- Here is a toy-example for our task. Could you find camouflaged objects in this video?
+- Here is a toy example for our task. Could you find camouflaged objects in this video?
 
     https://user-images.githubusercontent.com/38354957/201454018-f59b0b91-c952-4af3-8828-802fd1490453.mp4
 
@@ -36,17 +36,17 @@ Please refer to our paper for more details.
 
 ## 2. :fire: NEWS :fire:
 
-- [2022/11/13] We create a awesome paper list ([link](https://github.com/GewelsJI/SINet-V2/blob/main/AWESOME_COD_LIST.md)) for our camouflaged object detection community. 
+- [2022/11/13] We create an awesome paper list ([link](https://github.com/GewelsJI/SINet-V2/blob/main/AWESOME_COD_LIST.md)) for our camouflaged object detection community. 
 - [2021/12/26] :fire: < Concealed Object Detection > 论文在[Jittor Developer Conference 2021](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-12-27-15-27-00-00-jdc1/)中荣获「优秀计图论文奖」
 - [2021/12/14] :fire: 恭喜四川大学[傅可人教授团队](http://www.kerenfu.top/)的课题「面向工业质检的通用缺陷检测模型」基于SINetV2模型作为分割基线模型，参与“中信银行杯”第三届中国研究生人工智能创新大赛并取得喜人成绩.「[初赛企业组赛题-总排名第一](https://cpipc.acge.org.cn//cw/detail/2c9088a5696cbf370169a3f8101510bd/2c9080147c35e5a8017c5e7e939c43d6) 和 [总决赛-二等奖](https://cpipc.acge.org.cn//cw/detail/2c9088a5696cbf370169a3f8101510bd/2c90800c7da2aae7017db76b3abf07c6)」
 - [2021/10/10] Delivering a spotlight presentation 「伪装目标检测技术及其应用」 in VALSE 2021. The poster file can be found at [link (paper id-31)](http://valser.org/2021/#/poster).
 - [2021/10/09] Note that there are two images (`COD10K-CAM-1-Aquatic-3-Crab-32.png` and `COD10K-CAM-2-Terrestrial-23-Cat-1506.png`) that overlap between the training and test set of COD10K. You can either keep or discard those two images because they only slightly affect the final performance (~0.1% changes in terms of different metrics).
 - [2021/07/20] HUAWEI 藤蔓技术论坛2021 Talk: “伪装目标检测技术与应用”，报告人：范登平，2021. （[PPT下载](http://dpfan.net/wp-content/uploads/IIAI-%E4%BC%AA%E8%A3%85%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8-V6.pptx)）
-- [2021/06/16] Updating latest download link ([Pytorch](https://drive.google.com/file/d/1I3vKdcjafkTb2U2pOke07khurXxqLpzR/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/13DeX-IMFE6u0TnNG5blUvHzo5o21cVpc/view?usp=sharing)) on four testing dataset, including CHAMELEON, CAMO, COD10K, and NC4K.
+- [2021/06/16] Updating the latest download link ([Pytorch](https://drive.google.com/file/d/1I3vKdcjafkTb2U2pOke07khurXxqLpzR/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/13DeX-IMFE6u0TnNG5blUvHzo5o21cVpc/view?usp=sharing)) on four testing dataset, including CHAMELEON, CAMO, COD10K, and NC4K.
 - [2021/06/11] :fire: 「图形与几何计算」公众号报道：[计图开源：隐蔽目标检测新任务在计图框架下推理性能大幅提升](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-06-11-00-00-cod/)。 
-- [2021/06/05] The [Jittor convertion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now.
+- [2021/06/05] The [Jittor conversion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now.
   It has robust inference efficiency compared to PyTorch version, please enjoy it. 
-  Many thanks to Yu-Cheng Chou for the excellent conversion from pytorch framework)
+  Many thanks to Yu-Cheng Chou for the excellent conversion from PyTorch framework)
 - [2021/06/01] :fire: Our **TPAMI-2021** paper is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
 - [2021/05/18] 机器之心走近全球顶尖实验室系列之「伪装目标检测：挑战、方法和应用」视频报告分享([链接](https://app6ca5octe2206.pc.xiaoe-tech.com/detail/v_60a36389e4b0adb2d8652c35/3))。
 - [2021/05/16] [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) code will come soon ...
@@ -107,13 +107,13 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 1. Prepare the data:
 
-    + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
+    + downloading testing dataset and moving it into `./Dataset/TestDataset/`, 
     which can be found in [OneDrive](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVI0Bjs7k_VIvz4HmSVV9egBo48vjwX7pvx7deXBtooBYg?e=FjGqZZ).
 
     + downloading training/validation dataset and move it into `./Dataset/TrainValDataset/`, 
     which can be found in [OneDrive](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EQ75AD2A5ClIgqNv6yvstSwBQ1jJNC6DNbk8HISuxPV9QA?e=UhHKSD)
     
-    + downloading pretrained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
+    + downloading pre-trained weights and move it into `./snapshot/SINet_V2/Net_epoch_best.pth`, 
     which can be found in [OneDrive](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVU4T03bwF9ApK7-ilMFe5oB4ymicZv6NLw3Qf9t5psujA?e=A3b7tf).
     
     + downloading Res2Net weights on ImageNet dataset [download link (OneDrive)](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/ETPXmFGOAstDluY2UPI5BKMBeM3RYTEUiA9DhKT8D-kfeA?e=NJP4Gc).
@@ -126,7 +126,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 1. Testing Configuration:
 
-    + After you download all the pre-trained model and testing dataset, just run `MyTesting.py` to generate the final prediction map: 
+    + After you download all the pre-trained models and testing datasets, just run `MyTesting.py` to generate the final prediction map: 
     replace your trained model directory (`--pth_path`).
     
     + Just enjoy it!
@@ -134,7 +134,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ### 3.2 Evaluating your trained model:
 
 One-key evaluation is written in MATLAB code ([link](https://drive.google.com/file/d/1_h4_CjD5GKEf7B1MRuzye97H0MXf2GE9/view?usp=sharing)), 
-please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in `./res/`.
+please follow the instructions in `./eval/main.m` and just run it to generate the evaluation results in `./res/`.
 The complete evaluation toolbox (including data, map, eval code, and res): [link](https://drive.google.com/file/d/1qga1UJlIQdHNlt_F9TdN4lmmOH4gN7l2/view?usp=sharing). 
 
 ### 3.3 Pre-computed maps: 
@@ -164,7 +164,7 @@ If you find this project useful, please consider citing:
 
 ## 6. FAQ
 
-1. If the image cannot be loaded in the page (mostly in the domestic network situations).
+1. If the image cannot be loaded on the page (mostly in domestic network situations).
 
     [Solution Link](https://blog.csdn.net/weixin_42128813/article/details/102915578)
 
