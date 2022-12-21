@@ -47,7 +47,7 @@ Please refer to our paper for more details.
 - [2021/06/05] The [Jittor conversion of SINet-V2 (inference code)](https://github.com/GewelsJI/SINet-V2/tree/main/jittor) is available right now.
   It has robust inference efficiency compared to PyTorch version, please enjoy it. 
   Many thanks to Yu-Cheng Chou for the excellent conversion from PyTorch framework)
-- [2021/06/01] :fire: Our **TPAMI-2021** paper is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
+- [2021/06/01] :fire: Our **TPAMI paper** is early access to [IEEE Xplore](https://ieeexplore.ieee.org/document/9444794).
 - [2021/05/18] 机器之心走近全球顶尖实验室系列之「伪装目标检测：挑战、方法和应用」视频报告分享([链接](https://app6ca5octe2206.pc.xiaoe-tech.com/detail/v_60a36389e4b0adb2d8652c35/3))。
 - [2021/05/16] [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) code will come soon ...
 - [2021/05/01] Updating the download link of training/testing dataset in our experiments.
