@@ -151,7 +151,7 @@ If you find this project useful, please consider citing:
      author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},  
      title={Concealed Object Detection},   
      journal={IEEE TPAMI}, 
-     year={2021},  
+     year={2022},  
      volume={44},  
      number={10},  
      pages={6024-6042},  
