@@ -146,12 +146,16 @@ Link: [https://github.com/GewelsJI/SINet-V2/blob/main/AWESOME_COD_LIST.md](https
 ## 5. Citation
 
 If you find this project useful, please consider citing:
-
-    @article{fan2021concealed,
-      title={Concealed Object Detection},
-      author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},
-      journal={IEEE TPAMI},
-      year={2022}
+    
+    @article{fan2021concealed,  
+     author={Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling},  
+     title={Concealed Object Detection},   
+     journal={IEEE TPAMI}, 
+     year={2021},  
+     volume={44},  
+     number={10},  
+     pages={6024-6042},  
+     doi={10.1109/TPAMI.2021.3085766}
     }
     
     @inproceedings{fan2020camouflaged,
