@@ -48,6 +48,7 @@ This awesome list is under construction. If you have anything to recommend or an
 
 | **Dataset Name** | **Year** | **Publication** | **Links** |
 | :------: | :------: | :-------: | :---------|
+Camfish5K |2023 | CVPR | Paper
 [NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) | 2021 | CVPR | [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Simultaneously_Localize_Segment_and_Rank_the_Camouflaged_Objects_CVPR_2021_paper.pdf) |
 [COD10K](http://dpfan.net/camouflage/) | 2020 | CVPR | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) |
 [CAMO](https://sites.google.com/view/ltnghia/research/camo) | 2019 | CVIU | [Paper](http://www.dgcv.nii.ac.jp/Publications/Papers/2019/cviu2019.pdf) |
@@ -62,6 +63,9 @@ This awesome list is under construction. If you have anything to recommend or an
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2023 | CVPR | Camouflaged Object Counting <br><sup><sub>*Guolei Sun, Zhaochong An, Yun Liu, Ce Liu, Christos Sakaridis, Deng-Ping Fan, Luc Van Gool*</sub></sup> | Paper/Code
+| 2023 | arXiv | Camoformer: Masked separable attention for camouflaged object detection <br><sup><sub>*Bowen Yin, Xuying Zhang, Qibin Hou, Bo-Yuan Sun, Deng-Ping Fan, and Luc Van Gool*</sub></sup> | [Paper](https://arxiv.org/abs/2212.06570)/[Code](https://github.com/HVision-NKU/CamoFormer)
+| 2023 | arXiv | Source-free depth for object pop-out <br><sup><sub>*Zongwei Wu, Danda Pani Paudel, Deng-Ping Fan, Jingjing Wang, Shuo Wang, Cédric Demonceaux, Radu Timofte, Luc Van Gool*</sub></sup> | [Paper](https://arxiv.org/pdf/2212.05370.pdf)/[Code](https://github.com/Zongwei97/PopNet)
 | 2023 | WACV | MFFN: Multi-view Feature Fusion Network for Camouflaged Object Detection <br><sup><sub>*Dehua Zheng, Xiaochen Zheng, Laurence T. Yang, Yuan Gao, Chenlu Zhu, Yiheng Ruan*</sub></sup> | [Paper](https://arxiv.org/abs/2210.06361)/[Code](https://github.com/dwardzheng/MFFN_COD)
 | 2023  | AAAI | Weakly-Supervised Camouflaged Object Detection with Scribble Annotations <br><sup><sub>*Ruozhen He, Qihua Dong, Jiaying Lin, Rynson W.H. Lau*</sub></sup> | [Paper](https://arxiv.org/abs/2207.14083)
 |   2023   |  AAAI   | High-resolution Iterative Feedback Network for Camouflaged Object Detection <br> <sup><sub>*Xiaobin Hu, Shuo Wang, Xuebin Qin, Hang Dai, Wenqi Ren, Donghao Luo, Ying Tai, Ling Shao*</sub></sup> | [Paper](https://arxiv.org/abs/2203.11624)/[Code](https://github.com/HUuxiaobin/HitNet) 
