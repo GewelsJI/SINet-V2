@@ -48,7 +48,7 @@ This awesome list is under construction. If you have anything to recommend or an
 
 | **Dataset Name** | **Year** | **Publication** | **Links** |
 | :------: | :------: | :-------: | :---------|
-Camfish5K |2023 | CVPR | Paper
+[IOCfish5K](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |2023 | CVPR | Paper
 [NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) | 2021 | CVPR | [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Simultaneously_Localize_Segment_and_Rank_the_Camouflaged_Objects_CVPR_2021_paper.pdf) |
 [COD10K](http://dpfan.net/camouflage/) | 2020 | CVPR | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) |
 [CAMO](https://sites.google.com/view/ltnghia/research/camo) | 2019 | CVIU | [Paper](http://www.dgcv.nii.ac.jp/Publications/Papers/2019/cviu2019.pdf) |
@@ -56,14 +56,15 @@ Camfish5K |2023 | CVPR | Paper
 [CHAMELEON](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) | 2017 | Online | [Website](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) |
 
 
-###  2.2. Camouflaged Object Detection (COD)
-
+###  2.2. Camouflaged/Concealed Object Detection (COD)
 
 ####  2.2.1. YEAR 2023
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
-| 2023 | CVPR | Camouflaged Object Counting <br><sup><sub>*Guolei Sun, Zhaochong An, Yun Liu, Ce Liu, Christos Sakaridis, Deng-Ping Fan, Luc Van Gool*</sub></sup> | Paper/Code
+| 2023 | SCIS | Distraction-aware camouflaged object segmentation <br> <sup><sub>*Haiyang Mei, Xin Yang, Yunduo Zhou, Ge-Peng Ji, Xiaopeng Wei, and Deng-Ping Fan*</sub></sup> | [Paper]/[Code](https://github.com/Mhaiyang/PFNet_Plus)
+| 2023 | CVPR | Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers <br> <sup><sub>*Zhou Huang, Hang Dai, Tian-Zhu Xiang, Shuo Wang, Huai-Xin Chen, Jie Qin, and Huan Xiong*</sub></sup> | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Feature_Shrinkage_Pyramid_for_Camouflaged_Object_Detection_With_Transformers_CVPR_2023_paper.pdf)/[Code](https://github.com/ZhouHuang23/FSPNet)
+| 2023  | CVPR | Camouflaged Object Detection with Feature Decomposition and Edge Reconstruction   <br> <sup><sub>*Chunming He, Kai Li, Yachao Zhang, Longxiang Tang, Yulun Zhang, Zhenhua Guo, Xiu Li*</sub></sup>  | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Camouflaged_Object_Detection_With_Feature_Decomposition_and_Edge_Reconstruction_CVPR_2023_paper.pdf)/[Code](https://github.com/ChunmingHe/FEDER)
 | 2023 | arXiv | Camoformer: Masked separable attention for camouflaged object detection <br><sup><sub>*Bowen Yin, Xuying Zhang, Qibin Hou, Bo-Yuan Sun, Deng-Ping Fan, and Luc Van Gool*</sub></sup> | [Paper](https://arxiv.org/abs/2212.06570)/[Code](https://github.com/HVision-NKU/CamoFormer)
 | 2023 | arXiv | Source-free depth for object pop-out <br><sup><sub>*Zongwei Wu, Danda Pani Paudel, Deng-Ping Fan, Jingjing Wang, Shuo Wang, Cédric Demonceaux, Radu Timofte, Luc Van Gool*</sub></sup> | [Paper](https://arxiv.org/pdf/2212.05370.pdf)/[Code](https://github.com/Zongwei97/PopNet)
 | 2023 | WACV | MFFN: Multi-view Feature Fusion Network for Camouflaged Object Detection <br><sup><sub>*Dehua Zheng, Xiaochen Zheng, Laurence T. Yang, Yuan Gao, Chenlu Zhu, Yiheng Ruan*</sub></sup> | [Paper](https://arxiv.org/abs/2210.06361)/[Code](https://github.com/dwardzheng/MFFN_COD)
@@ -128,16 +129,23 @@ Camfish5K |2023 | CVPR | Paper
 
 
 
-###  2.3. Camouflaged Instance Segmentation (CIS)
+###  2.3. Camouflaged/Concealed Instance Segmentation (CIS)
 
 
 | **Year** | **Publication** | **Title**                                                    | **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
-|   2022   |  ECCV    | **OSFormer: One-Stage Camouflaged Instance Segmentation with Transformers** <br> <sup><sub>*Jialun Pei, Tianyang Cheng, Deng-Ping Fan, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2207.02255)/[Code](https://github.com/PJLallen/OSFormer)
-|   2022   |  TIP  | Camouflaged Instance Segmentation In-The-Wild: Dataset, Method, and Benchmark Suite <br> <sup><sub>*Trung-Nghia Le, Yubo Cao, Tan-Cong Nguyen, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2103.17123)/[Project](https://sites.google.com/view/ltnghia/research/camo_plus_plus)
+| 2023     | CVPR     | Camouflaged Instance Segmentation via Explicit De-camouflaging  <br> <sup><sub>*Naisong Luo, Yuwen Pan, Rui Sun, Tianzhu Zhang, Zhiwei Xiong, Feng Wu*</sub></sup>  | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Camouflaged_Instance_Segmentation_via_Explicit_De-Camouflaging_CVPR_2023_paper.pdf)/[Code](https://github.com/USTCL/DCNet)
+| 2022   |  ECCV    | **OSFormer: One-Stage Camouflaged Instance Segmentation with Transformers** <br> <sup><sub>*Jialun Pei, Tianyang Cheng, Deng-Ping Fan, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2207.02255)/[Code](https://github.com/PJLallen/OSFormer)
+| 2022   |  TIP  | Camouflaged Instance Segmentation In-The-Wild: Dataset, Method, and Benchmark Suite <br> <sup><sub>*Trung-Nghia Le, Yubo Cao, Tan-Cong Nguyen, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2103.17123)/[Project](https://sites.google.com/view/ltnghia/research/camo_plus_plus)
 
+	
+### 2.4. Camouflaged/Concealed Object Counting (COC)
 
-###  2.4. Video Camouflaged Object Detection (VCOD)
+| **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
+| :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+|   2022   |   TPAMI   | **Indiscernible Object Counting in Underwater Scenes** <br><sup><sub>*Guolei Sun, Zhaochong An, Yun Liu, Ce Liu, Christos Sakaridis, Deng-Ping Fan, Luc Van Gool*</sub></sup>                             | [Paper]([https://arxiv.org/abs/2102.10274](https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Indiscernible_Object_Counting_in_Underwater_Scenes_CVPR_2023_paper.pdf))/[Code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)  
+	
+###  2.5. Video Camouflaged/Concealed Object Detection (VCOD)
 
 | **Year** | **Publication** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
