@@ -12,25 +12,25 @@
 
 This awesome list is under construction. If you have anything to recommend or any suggestions, please feel free to contact us via e-mail (gepengai.ji@gmail) or directly push a PR. 
 
-< **Last updated: Nov/12/2022** >
+< **Last updated: June/14/2023** >
 
 
 ##  1. Content
 
-
-- [`Awesome List for Camouflaged Object Detection (COD)`](#awesome-list-for-camouflaged-object-detection-cod)
-	- [1. Content](#1-content)
-	- [2. Paper List](#2-paper-list)
-		- [2.1. Datasets \& Benchmarks](#21-datasets--benchmarks)
-			- [2.1.1. Video-level COD](#211-video-level-cod)
-			- [2.1.2. Image-level COD](#212-image-level-cod)
-		- [2.2. Camouflaged Object Detection (COD)](#22-camouflaged-object-detection-cod)
-			- [2.2.1. YEAR 2023](#221-year-2023)
-			- [2.2.2. YEAR 2022](#222-year-2022)
-			- [2.2.3. YEAR 2021](#223-year-2021)
-			- [2.2.4. Before YEAR 2020](#224-before-year-2020)
-		- [2.3. Camouflaged Instance Segmentation (CIS)](#23-camouflaged-instance-segmentation-cis)
-		- [2.4. Video Camouflaged Object Detection (VCOD)](#24-video-camouflaged-object-detection-vcod)
+- [Awesome List for Camouflaged Object Detection (COD)](#-p-align-center--awesome-list-for-camouflaged-object-detection--cod--)
+  * [1. Content](#1-content)
+  * [2. Paper List](#2-paper-list)
+    + [2.1. Datasets & Benchmarks](#21-datasets---benchmarks)
+      - [2.1.1. Video-level COD](#211-video-level-cod)
+      - [2.1.2. Image-level COD](#212-image-level-cod)
+    + [2.2. Camouflaged/Concealed Object Detection (COD)](#22-camouflaged-concealed-object-detection--cod-)
+      - [2.2.1. YEAR 2023](#221-year-2023)
+      - [2.2.2. YEAR 2022](#222-year-2022)
+      - [2.2.3. YEAR 2021](#223-year-2021)
+      - [2.2.4. Before YEAR 2020](#224-before-year-2020)
+    + [2.3. Camouflaged/Concealed Instance Segmentation (CIS)](#23-camouflaged-concealed-instance-segmentation--cis-)
+    + [2.4. Camouflaged/Concealed Object Counting (COC)](#24-camouflaged-concealed-object-counting--coc-)
+    + [2.5. Video Camouflaged/Concealed Object Detection (VCOD)](#25-video-camouflaged-concealed-object-detection--vcod-)
 
 ##  2. Paper List
 
@@ -143,7 +143,7 @@ This awesome list is under construction. If you have anything to recommend or an
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
-|   2022   |   TPAMI   | **Indiscernible Object Counting in Underwater Scenes** <br><sup><sub>*Guolei Sun, Zhaochong An, Yun Liu, Ce Liu, Christos Sakaridis, Deng-Ping Fan, Luc Van Gool*</sub></sup>                             | [Paper]([https://arxiv.org/abs/2102.10274](https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Indiscernible_Object_Counting_in_Underwater_Scenes_CVPR_2023_paper.pdf))/[Code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)  
+|   2023   |   CVPR   | **Indiscernible Object Counting in Underwater Scenes** <br><sup><sub>*Guolei Sun, Zhaochong An, Yun Liu, Ce Liu, Christos Sakaridis, Deng-Ping Fan, Luc Van Gool*</sub></sup>                             | [Paper]([https://arxiv.org/abs/2102.10274](https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Indiscernible_Object_Counting_in_Underwater_Scenes_CVPR_2023_paper.pdf))/[Code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)  
 	
 ###  2.5. Video Camouflaged/Concealed Object Detection (VCOD)
 
