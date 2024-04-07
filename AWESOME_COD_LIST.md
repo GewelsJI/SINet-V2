@@ -58,8 +58,8 @@ Link: https://link.springer.com/article/10.1007/s44267-023-00019-6
 [NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) | 2021 | CVPR | [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Simultaneously_Localize_Segment_and_Rank_the_Camouflaged_Objects_CVPR_2021_paper.pdf) |
 [COD10K](http://dpfan.net/camouflage/) | 2020 | CVPR | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) |
 [CAMO](https://sites.google.com/view/ltnghia/research/camo) | 2019 | CVIU | [Paper](http://www.dgcv.nii.ac.jp/Publications/Papers/2019/cviu2019.pdf) |
-[CPD1K](https://github.com/xfflyer/Camouflaged-people-detection) | 2019 | SPL | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8336933&casa_token=h25eiro16rcAAAAA:qeSoquItkaBK8QKGFvbiX2DJA0MycSjJ-5nK-2y0QSGxQY97b8b6BsLmoo8QJCQVD3HYPstW&tag=1) | 
-[CHAMELEON](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) | 2017 | Online | [Website](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) |
+<!-- [CPD1K](https://github.com/xfflyer/Camouflaged-people-detection) | 2019 | SPL | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8336933&casa_token=h25eiro16rcAAAAA:qeSoquItkaBK8QKGFvbiX2DJA0MycSjJ-5nK-2y0QSGxQY97b8b6BsLmoo8QJCQVD3HYPstW&tag=1) | 
+[CHAMELEON](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) | 2017 | Online | [Website](https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/) | -->
 
 
 ###  2.2. Camouflaged/Concealed Object Detection (COD)
