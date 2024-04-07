@@ -12,8 +12,9 @@
 
 This awesome list is under construction. If you have anything to recommend or any suggestions, please feel free to contact us via e-mail (gepengai.ji@gmail) or directly push a PR. 
 
-< **Last updated: June/14/2023** >
+< **Last updated: March/07/2024** >
 
+Please refer to our recent survey paper for more details: Advances in Deep Concealed Scene Understanding, Visual Intelligence (VI), 2023. Link: https://link.springer.com/article/10.1007/s44267-023-00019-6
 
 ##  1. Content
 
