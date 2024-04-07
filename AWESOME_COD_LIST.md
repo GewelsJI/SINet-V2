@@ -18,20 +18,22 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 
 ##  1. Content
 
-- [Awesome List for Camouflaged Object Detection (COD)](#-p-align-center--awesome-list-for-camouflaged-object-detection--cod--)
-  * [1. Content](#1-content)
-  * [2. Paper List](#2-paper-list)
-    + [2.1. Datasets & Benchmarks](#21-datasets---benchmarks)
+- [`Awesome List for Camouflaged Object Detection (COD)`](#awesome-list-for-camouflaged-object-detection-cod)
+  - [1. Content](#1-content)
+  - [2. Paper List](#2-paper-list)
+    - [2.1. Datasets \& Benchmarks](#21-datasets--benchmarks)
       - [2.1.1. Video-level COD](#211-video-level-cod)
       - [2.1.2. Image-level COD](#212-image-level-cod)
-    + [2.2. Camouflaged/Concealed Object Detection (COD)](#22-camouflaged-concealed-object-detection--cod-)
-      - [2.2.1. YEAR 2023](#221-year-2023)
-      - [2.2.2. YEAR 2022](#222-year-2022)
-      - [2.2.3. YEAR 2021](#223-year-2021)
-      - [2.2.4. Before YEAR 2020](#224-before-year-2020)
-    + [2.3. Camouflaged/Concealed Instance Segmentation (CIS)](#23-camouflaged-concealed-instance-segmentation--cis-)
-    + [2.4. Camouflaged/Concealed Object Counting (COC)](#24-camouflaged-concealed-object-counting--coc-)
-    + [2.5. Video Camouflaged/Concealed Object Detection (VCOD)](#25-video-camouflaged-concealed-object-detection--vcod-)
+    - [2.2. Camouflaged/Concealed Object Detection (COD)](#22-camouflagedconcealed-object-detection-cod)
+      - [2.2.1. YEAR 2024](#221-year-2024)
+      - [2.2.2. YEAR 2023](#222-year-2023)
+      - [2.2.3. YEAR 2022](#223-year-2022)
+      - [2.2.4. YEAR 2021](#224-year-2021)
+      - [2.2.5. Before YEAR 2020](#225-before-year-2020)
+    - [2.3. Camouflaged/Concealed Instance Segmentation (CIS)](#23-camouflagedconcealed-instance-segmentation-cis)
+    - [2.4. Camouflaged/Concealed Object Counting (COC)](#24-camouflagedconcealed-object-counting-coc)
+    - [2.5. Video Camouflaged/Concealed Object Detection (VCOD)](#25-video-camouflagedconcealed-object-detection-vcod)
+    - [2.6. Referring COD](#26-referring-cod)
 
 ##  2. Paper List
 
@@ -49,7 +51,7 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 
 | **Dataset Name** | **Year** | **Publication** | **Links** |
 | :------: | :------: | :-------: | :---------|
-[IOCfish5K](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |2023 | CVPR | Paper
+[IOCfish5K](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |2023 | CVPR | [Paper](https://arxiv.org/abs/2304.11677), [Website](https://github.com/GuoleiSun/Indiscernible-Object-Counting), [Download](https://drive.google.com/file/d/1ETY_AdJB9azzja6L9URN58KtL4OH98SL/view)
 [NC4K](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) | 2021 | CVPR | [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Simultaneously_Localize_Segment_and_Rank_the_Camouflaged_Objects_CVPR_2021_paper.pdf) |
 [COD10K](http://dpfan.net/camouflage/) | 2020 | CVPR | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) |
 [CAMO](https://sites.google.com/view/ltnghia/research/camo) | 2019 | CVIU | [Paper](http://www.dgcv.nii.ac.jp/Publications/Papers/2019/cviu2019.pdf) |
@@ -59,13 +61,35 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 
 ###  2.2. Camouflaged/Concealed Object Detection (COD)
 
-####  2.2.1. YEAR 2023
+#### 2.2.1. YEAR 2024
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2024 |  CVPR  | LAKE-RED: Camouflaged Images Generation by Latent Background Knowledge Retrieval-Augmented Diffusion   <br> <sup><sub>*Pancheng Zhao, Peng Xu, Pengda Qin, Deng-Ping Fan, Zhicheng Zhang, Guoli Jia, Bowen Zhou, Jufeng Yang*</sub></sup>  | [Paper](https://arxiv.org/abs/2404.00292)/[Code](https://github.com/PanchengZhao/LAKE-RED)
+| 2024 |  CVPR  | VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning   <br> <sup><sub>*Ziyang Luo, Nian Liu, Wangbo Zhao, Xuguang Yang, Dingwen Zhang, Deng-Ping Fan, Fahad Khan, Junwei Han*</sub></sup>  | [Paper](https://arxiv.org/abs/2311.15011)/[Code](https://github.com/Sssssuperior/VSCode)
+| 2024 |  ICLR  | Strategic Preys Make Acute Predators: Enhancing Camouflaged Object Detectors by Generating Camouflaged Objects   <br> <sup><sub>*Chunming He, Kai Li, Yachao Zhang, Yulun Zhang, Zhenhua Guo, Xiu Li, Martin Danelljan, Fisher Yu*</sub></sup>  | [Paper](https://arxiv.org/abs/2308.03166)/[Code](https://github.com/ChunmingHe/Camouflageator)
+| 2024 |  WACV  | CamoFocus: Enhancing Camouflage Object Detection With Split-Feature Focal Modulation and Context Refinement   <br> <sup><sub>*Abbas Khan, Mustaqeem Khan, Wail Gueaieb, Abdulmotaleb El Saddik, Giulia De Masi, Fakhri Karray*</sub></sup>  | [Paper](https://openaccess.thecvf.com/content/WACV2024/html/Khan_CamoFocus_Enhancing_Camouflage_Object_Detection_With_Split-Feature_Focal_Modulation_and_WACV_2024_paper.html)/Code
+| 2024 | AAAI | CamoDiffusion: Camouflaged Object Detection via Conditional Diffusion Models   <br> <sup><sub>*Zhongxi Chen, Ke Sun, Xianming Lin*</sub></sup>  | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/27890)/[Code](https://github.com/Rapisurazurite/CamoDiffusion)
+| 2024 |  AAAI  | Relax Image-Specific Prompt Requirement in SAM: A Single Generic Prompt for Segmenting Camouflaged Objects   <br> <sup><sub>*Jian Hu, Jiayi Lin, Weitong Cai, Shaogang Gong*</sub></sup>  | [Paper](https://arxiv.org/abs/2312.07374)/[Proj](https://lwpyh.github.io/GenSAM/)/<br>[Code](https://github.com/jyLin8100/GenSAM)
+| 2024 | Neucom | A systematic review of image-level camouflaged object detection with deep learning  <br> <sup><sub>*Yanhua Liang, Guihe Qin, Minghui Sun, Xinchao Wang, Jie Yan, Zhonghan Zhang*</sub></sup>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231223011736)/Code
+
+
+####  2.2.2. YEAR 2023
+
+| **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
+| :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2023 | SCIS | SAM Struggles in Concealed Scenes--Empirical Study on "Segment Anything" <br> <sup><sub>*Ge-Peng Ji, Deng-Ping Fan, Peng Xu, Bowen Zhou, Ming-Ming Cheng & Luc Van Gool*</sub></sup> | [Paper](https://link.springer.com/article/10.1007/s11432-023-3881-x)
+| 2023 | CVPR Workshop | Segment anything is not always perfect: An investigation of sam on different real-world applications <br> <sup><sub>*Wei Ji, Jingjing Li, Qi Bi, Tingwei Liu, Wenbo Li, Li Cheng*</sub></sup> | [Paper](https://arxiv.org/abs/2304.05750v3)/[Github](https://github.com/LiuTingWed/SAM-Not-Perfect)
+| 2023 | ICCV Workshop | SAM Fails to Segment Anything? – SAM-Adapter: Adapting SAM in Underperformed Scenes: Camouflage, Shadow, Medical Image Segmentation, and More <br> <sup><sub>*Tianrun Chen, Lanyun Zhu, Chaotao Deng, Runlong Cao, Yan Wang, Shangzhan Zhang, Zejian Li, Lingyun Sun, Ying Zang, Papa Mao*</sub></sup> | [Paper](https://openaccess.thecvf.com/content/ICCV2023W/VCL/html/Chen_SAM-Adapter_Adapting_Segment_Anything_in_Underperformed_Scenes_ICCVW_2023_paper.html)/[Website](https://tianrun-chen.github.io/SAM-Adaptor/)
+| 2023  | arXiv | Open-Vocabulary Camouflaged Object Segmentation   <br> <sup><sub>*Youwei Pang, Xiaoqi Zhao, Jiaming Zuo, Lihe Zhang, Huchuan Lu*</sub></sup>  | [Paper](https://arxiv.org/abs/2311.11241)/Code
+| 2023  | NeurIPS | Weakly-Supervised Concealed Object Segmentation with SAM-based Pseudo Labeling and Multi-scale Feature Grouping   <br> <sup><sub>*Chunming He, Kai Li, Yachao Zhang, Guoxia Xu, Longxiang Tang, Yulun Zhang, Zhenhua Guo, Xiu Li*</sub></sup>  | [Paper](https://arxiv.org/abs/2305.11003)/[Code](https://github.com/ChunmingHe/WS-SAM)
+| 2023  | ACM MM | Frequency Perception Network for Camouflaged Object Detection  <br> <sup><sub>*Runmin Cong, Mengyao Sun, Sanyi Zhang, Xiaofei Zhou, Wei Zhang, Yao Zhao*</sub></sup>  | [Paper](https://arxiv.org/abs/2308.08924)/[Code](https://github.com/rmcong/FPNet_ACMMM23)
+| 2023  | ACM MM | Frequency Representation Integration for Camouflaged Object Detection  <br> <sup><sub>*Chenxi Xie, Changqun Xia, Tianshu Yu, Jia Li*</sub></sup> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3611773)/Code
+| 2023  | ACM MM | Depth-aided Camouflaged Object Detection  <br> <sup><sub>*Qingwei Wang, Jinyu Yang, Xiaosheng Yu, Fangyi Wang, Peng Chen, Feng Zheng*</sub></sup> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3611874)/[Code](https://github.com/qingwei-wang/DaCOD) 
+| 2023  | ACM MM | Object Segmentation by Mining Cross-Modal Semantics <br> <sup><sub>*Zongwei Wu, Jingjing Wang, Zhuyun Zhou, Zhaochong An, Qiuping Jiang, Cédric Demonceaux, Guolei Sun, Radu Timofte*</sub></sup>  | [Paper](https://arxiv.org/abs/2305.10469)/[Code](https://github.com/Zongwei97/XMSNet)
 | 2023 | IJCAI | Locate, Refine and Restore: A Progressive Enhancement Network for Camouflaged Object Detection <br> <sup><sub>*Xiaofei Li; Jiaxin Yang; Shuohao Li; Jun Lei; Jun Zhang; Dong Chen*</sub></sup> | [Paper](https://www.ijcai.org/proceedings/2023/0124.pdf)
 | 2023 | arXiv | Strategic Preys Make Acute Predators: Enhancing Camouflaged Object Detectors by Generating Camouflaged Objects <br> <sup><sub>*Chunming He, Kai Li, Yachao Zhang, Yulun Zhang, Zhenhua Guo, Xiu Li, Martin Danelljan, Fisher Yu*</sub></sup> | [Paper](https://arxiv.org/abs/2308.03166)/Code
-| 2023 | SCIS | Distraction-aware camouflaged object segmentation <br> <sup><sub>*Haiyang Mei, Xin Yang, Yunduo Zhou, Ge-Peng Ji, Xiaopeng Wei, and Deng-Ping Fan*</sub></sup> | [Paper]/[Code](https://github.com/Mhaiyang/PFNet_Plus)
+| 2023 | SCIS | Distraction-aware camouflaged object segmentation <br> <sup><sub>*Haiyang Mei, Xin Yang, Yunduo Zhou, Ge-Peng Ji, Xiaopeng Wei, and Deng-Ping Fan*</sub></sup> | [Paper](https://mhaiyang.github.io/SSI2023-PFNet-Plus/index.html)/[Code](https://github.com/Mhaiyang/PFNet_Plus)
 | 2023 | CVPR | Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers <br> <sup><sub>*Zhou Huang, Hang Dai, Tian-Zhu Xiang, Shuo Wang, Huai-Xin Chen, Jie Qin, and Huan Xiong*</sub></sup> | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Feature_Shrinkage_Pyramid_for_Camouflaged_Object_Detection_With_Transformers_CVPR_2023_paper.pdf)/[Code](https://github.com/ZhouHuang23/FSPNet)
 | 2023  | CVPR | Camouflaged Object Detection with Feature Decomposition and Edge Reconstruction   <br> <sup><sub>*Chunming He, Kai Li, Yachao Zhang, Longxiang Tang, Yulun Zhang, Zhenhua Guo, Xiu Li*</sub></sup>  | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Camouflaged_Object_Detection_With_Feature_Decomposition_and_Edge_Reconstruction_CVPR_2023_paper.pdf)/[Code](https://github.com/ChunmingHe/FEDER)
 | 2023 | Electronics | [FLCNet] Camouflaged Object Detection with a Feature Lateral Connection Network <br> <sup><sub>*Tao Wang, Jian Wang, and Ruihao Wang*</sub></sup> | [Paper](https://www.mdpi.com/2079-9292/12/12/2570)/[Code](https://github.com/Tao-Wang-CV/FLCNet)
@@ -76,7 +100,7 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 |   2023   |  AAAI   | High-resolution Iterative Feedback Network for Camouflaged Object Detection <br> <sup><sub>*Xiaobin Hu, Shuo Wang, Xuebin Qin, Hang Dai, Wenqi Ren, Donghao Luo, Ying Tai, Ling Shao*</sub></sup> | [Paper](https://arxiv.org/abs/2203.11624)/[Code](https://github.com/HUuxiaobin/HitNet) 
 | 2023  | MIR   | **Deep Gradient Learning for Efficient Camouflaged Object Detection** (`DGNet model`) <br><sup><sub>*Ge-Peng Ji, Deng-Ping Fan, Yu-Cheng Chou, Dengxin Dai, Alexander Liniger, Luc Van Gool*</sub></sup>  | [Paper](https://arxiv.org/abs/2205.12853v2)/[Code](https://github.com/GewelsJI/DGNet)
 
-####  2.2.2. YEAR 2022
+####  2.2.3. YEAR 2022
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
@@ -101,7 +125,7 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 |   2022   |  TOMM | Frequency-aware Camouflaged Object Detection <br> <sup><sub>*Jiaying Lin, Xin Tan, Ke Xu, Lizhuang Ma, Rynson W.H. Lau*</sub></sup> | [Paper](https://dl.acm.org/doi/abs/10.1145/3545609)/Code 
 
 
-####  2.2.3. YEAR 2021
+####  2.2.4. YEAR 2021
 
 | **Year** | **Publication** | **Title**                                                    |  **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
@@ -121,7 +145,7 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 |   2021   |  arXiv   | Exploring Depth Contribution for Camouflaged Object Detection <br> <sup><sub>*Mochu Xiang, Jing Zhang, Yunqiu Lv, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2106.13217v3)/Code
 |   2021   |  arXiv   | Accurate Camouflaged Object Detection via Mixture Convolution and Interactive Fusion <br> <sup><sub>*Bo Dong, Mingchen Zhuge, Yongxiong Wang, Hongbo Bi, Geng Chen*</sub></sup> | [Paper](https://arxiv.org/pdf/2101.05687.pdf)/[Code](https://github.com/BigHeartDB/MCIFNet)  
 
-####  2.2.4. Before YEAR 2020 
+####  2.2.5. Before YEAR 2020 
 
 | **Year** | **Publication** | **Title**                                                    | **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -138,6 +162,8 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 
 | **Year** | **Publication** | **Title**                                                    | **Links**                                                    |
 | :------: | :------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 2023  | arXiv | Leveraging Open-Vocabulary Diffusion to Camouflaged Instance Segmentation  <br> <sup><sub>*Tuan-Anh Vu, Duc Thanh Nguyen, Qing Guo, Binh-Son Hua, Nhat Minh Chung, Ivor W. Tsang, Sai-Kit Yeung*</sub></sup>  | [Paper](https://arxiv.org/abs/2312.17505)/Code 
+| 2023  | ACM MM | A Unified Query-based Paradigm for Camouflaged Instance Segmentation  <br> <sup><sub>*Bo Dong, Jialun Pei, Rongrong Gao, Tian-Zhu Xiang, Shuo Wang, Huan Xiong*</sub></sup>  | [Paper](https://arxiv.org/abs/2308.07392)/[Code](https://github.com/dongbo811/UQFormer)
 | 2023     | CVPR     | Camouflaged Instance Segmentation via Explicit De-camouflaging  <br> <sup><sub>*Naisong Luo, Yuwen Pan, Rui Sun, Tianzhu Zhang, Zhiwei Xiong, Feng Wu*</sub></sup>  | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Camouflaged_Instance_Segmentation_via_Explicit_De-Camouflaging_CVPR_2023_paper.pdf)/[Code](https://github.com/USTCL/DCNet)
 | 2022   |  ECCV    | **OSFormer: One-Stage Camouflaged Instance Segmentation with Transformers** <br> <sup><sub>*Jialun Pei, Tianyang Cheng, Deng-Ping Fan, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2207.02255)/[Code](https://github.com/PJLallen/OSFormer)
 | 2022   |  TIP  | Camouflaged Instance Segmentation In-The-Wild: Dataset, Method, and Benchmark Suite <br> <sup><sub>*Trung-Nghia Le, Yubo Cao, Tan-Cong Nguyen, et al.*</sub></sup> | [Paper](https://arxiv.org/abs/2103.17123)/[Project](https://sites.google.com/view/ltnghia/research/camo_plus_plus)
@@ -153,6 +179,7 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 
 | **Year** | **Publication** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2024 | arXiv | Explicit Motion Handling and Interactive Prompting for Video Camouflaged Object Detection <br> <sup><sub>*Xin Zhang, Tao Xiao, Ge-Peng Ji, Xuan Wu, Keren Fu, Qijun Zhao*</sub></sup> | [Paper](https://arxiv.org/pdf/2403.01968v1.pdf)/Code
 |   2022   |   CVPR   | **Implicit Motion Handling for Video Camouflaged Object Detection** (`MoCA-Mask dataset`) <br> <sup><sub>*Xuelian Cheng, Huan Xiong, Deng-Ping Fan, et al.*</sub></sup> | [Paper](https://dengpingfan.github.io/papers/[2022][CVPR]VCOD_MoCA-Mask.pdf)/[Code](https://github.com/XuelianCheng/SLT-Net)
 | 2022 | TPAMI | EM-driven unsupervised learning for efficient motion segmentation <br> <sup><sub>*Etienne Meunier, Ana¨ıs Badoual, and Patrick Bouthemy.*</sub></sup> | [Paper](https://ieeexplore.ieee.org/document/9855882)/[Code](https://github.com/Etienne-Meunier-Inria/EM-Flow-Segmentation)
 | 2022 | NeurIPS |Segmenting Moving Objects via an Object-Centric Layered Representation <br> <sup><sub>*Junyu Xie, Weidi Xie, Andrew Zisserman.*</sub></sup> | [Paper](https://openreview.net/pdf?id=tUH1Or4xblM)/Code
@@ -163,3 +190,11 @@ Please refer to our recent survey paper for more details: Advances in Deep Conce
 | 2019 | CVPR |Object discovery in videos as foreground motion clustering <br> <sup><sub>*Christopher Xie, Yu Xiang, Zaid Harchaoui, et al.*</sub></sup> | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Object_Discovery_in_Videos_as_Foreground_Motion_Clustering_CVPR_2019_paper.pdf)/Code
 | 2018 | CVPR |The best of both worlds: Combining cnns and geometric constraints for hierarchical motion segmentation <br> <sup><sub>*Pia Bideau, Aruni RoyChowdhury, Rakesh R. Menon,et al.*</sub></sup> | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Bideau_The_Best_of_CVPR_2018_paper.pdf)/[Code](https://github.com/pbideau/hierarchical-motion-segmentation)
 | 2016 | ECCV | <span style="white-space:nowrap;">It’s Moving! A Probabilistic Model for Causal Motion Segmentation in Moving Camera Videos&emsp;&emsp;&emsp;</span> <br><sup><sub>*Bideau, Pia, and Erik Learned-Miller.*</sub></sup> | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-46484-8_26)/Code
+
+
+### 2.6. Referring COD
+
+| **Year** | **Pub.** | **Title**                                                    | **Links**                                                    |
+| :------: | :------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 2023  | arXiv | Large Model Based Referring Camouflaged Object Detection   <br> <sup><sub>*Shupeng Cheng, Ge-Peng Ji, Pengda Qin, Deng-Ping Fan, Bowen Zhou, Peng Xu*</sub></sup>  | [Paper](https://arxiv.org/abs/2311.17122)/Code
+| 2023  | arXiv | Referring Camouflaged Object Detection   <br> <sup><sub>*Xuying Zhang, Bowen Yin, Zheng Lin, Qibin Hou, Deng-Ping Fan, Ming-Ming Cheng*</sub></sup>  | [Paper](https://arxiv.org/abs/2306.07532)/[Code]([https://github.com/ChunmingHe/WS-SAM](https://github.com/zhangxuying1004/RefCOD))
