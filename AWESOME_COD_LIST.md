@@ -10,7 +10,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/GewelsJI/SINet-V2)
 ![GitHub stars](https://img.shields.io/github/stars/GewelsJI/SINet-V2)
 
-This awesome list is under construction. If you have anything to recommend or any suggestions, please feel free to contact us via e-mail (gepengai.ji@gmail) or directly push a PR. 
+This awesome list is under construction. If you have anything to recommend or any suggestions, please feel free to contact us via e-mail (gepengai.ji@gmail.com) or directly push a PR. 
 
 < **Last updated: March/07/2024** >
 
